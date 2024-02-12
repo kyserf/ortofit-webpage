@@ -5,6 +5,7 @@
   "main": "main.html",
   "scripts": {
     "start": "parcel main.html",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
