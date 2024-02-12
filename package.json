@@ -2,9 +2,9 @@
   "name": "ortofit-webpage",
   "version": "1.0.0",
   "description": "",
-  "main": "main.html",
+  "main": "ingex.html",
   "scripts": {
-    "start": "parcel main.html",
+    "start": "parcel index.html",
     "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
