@@ -54,6 +54,24 @@
   border-bottom: 1px solid rgb(6, 115, 154, 0.3);
 }
 
+.productsListBlock__head_button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  border: 1px solid #06739a;
+  border-radius: 24px;
+  width: 230px;
+  height: 50px;
+
+  color: #06739a;
+  background: #fff;
+  cursor: pointer;
+
+  margin-left: 60px;
+  margin-bottom: 40px;
+}
+
 .productsListBlock__body_listOfProducts_prodCard {
   display: flex;
   flex-direction: column;
@@ -74,9 +92,20 @@
   margin-bottom: 40px;
 }
 
+.productsListBlock__body_listOfProducts_prodCard_imgWrapper {
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+}
+
 .productsListBlock__body_listOfProducts_prodCard_img {
-  width: 435px;
   height: 495px;
+  transition: transform 0.3s;
+}
+
+.productsListBlock__body_listOfProducts_prodCard_img:hover {
+  transform: scale(1.1);
 }
 
 .prodcard--ad {
@@ -89,6 +118,8 @@
 }
 
 .prodcard--adRow {
+  position: relative;
+
   width: 533px;
   height: 754px;
 }
@@ -127,6 +158,9 @@
 }
 
 .productsListBlock__body_listOfProducts_prodCard_button {
+  display: flex;
+
+  gap: 20px;
   width: 200px;
   height: 50px;
 
@@ -134,7 +168,14 @@
 }
 
 .button__text {
-  margin-right: 20px;
+  font-size: 20px;
+}
+
+.button--ad {
+  background: #fff;
+  color: #00719a;
+
+  width: 300px;
 }
 
 .prodcard--ad__imgWrapper {
@@ -195,7 +236,21 @@
 
 .prodcard--ad__content {
   margin-left: 40px;
-  width: 575px;
+  width: 625px;
+}
+
+.productsListBlock__body_listOfProducts_prodCard_price--ad {
+  position: relative;
+}
+
+.productsListBlock__body_listOfProducts_prodCard_price--ad::before {
+  content: "320 ₴";
+  position: absolute;
+  top: -30px;
+  text-decoration: line-through;
+
+  font-size: 24px;
+  color: #9bc7d7;
 }
 
 .productsListBlock__body_listOfProducts_prodCard_content {
