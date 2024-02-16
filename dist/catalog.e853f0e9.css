@@ -1,0 +1,149 @@
+.catalog_hero {
+  background-image: url(/heroCatalog.ce271556.png);
+  height: 750px;
+}
+
+/* catalogSection */
+
+.catalogSection {
+  color: #00719b;
+}
+
+.catalogSection__titleBlock {
+  margin-bottom: 40px;
+}
+
+.catalogSection__titleBlock_title {
+  margin: 0;
+}
+
+.catalogSection__titleBlock_text {
+  width: 500px;
+}
+
+.catalogSection__catalogList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.catalogSection__catalogList_card {
+  border-radius: 40px;
+}
+
+.catalogSection__catalogList_topRow {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.catalogSection__catalogList_midRow {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.catalogSection__catalogList_bottomRow {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.catalog-topCard {
+  width: 586px;
+  height: 600px;
+}
+
+.catalog-midCard {
+  width: 436px;
+  height: 320px;
+}
+
+.catalog-bottomCard {
+  width: 591px;
+  height: 320px;
+}
+
+.catalog-firstCard {
+  background-image: url(/catalogIndividual.60b18408.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.catalog-secondCard {
+  background-image: url(/catalogReady.4c5e83a4.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.catalog-thirdCard {
+  background-image: url(/catalogReady2.b02539a0.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.catalog-fourthCard {
+  background-image: url(/catalogsocks.69e19b78.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.catalog-fifthtCard {
+  background-image: url(/catalogStretch.d6064c02.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.catalog-sixCard {
+  background-image: url(/catalogEveryday.ee648eed.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.catalog-sevenCard {
+  background-image: url(/catalogKids.a8f70e6d.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.catalog-eightCard {
+  background-image: url(/catalogModel.b26d9358.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.catalog-nineCard {
+  background-image: url(/catalogSport.9c7a32a9.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.catalog-tenCard {
+  background-image: url(/catalogAll.a7e5ecde.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.catalogSection__catalogList_card {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.catalogSection__catalogList_card_title {
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+  line-height: 1.1;
+  color: #fff;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=/catalog.e853f0e9.css.map */

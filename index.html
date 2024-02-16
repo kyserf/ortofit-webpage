@@ -14,11 +14,13 @@
   </head>
   <body>
     <header class="header">
-      <img src="./images/logo.png" alt="Logo" class="header__logo">
+      <a href="/">
+        <img src="./images/logo.png" alt="Logo" class="header__logo">
+      </a>
       <div class="header__navbar">
         <a href="./pages/aboutPage.html" class="header__navbar_link">Про компанію</a>
-        <a href="/" class="header__navbar_link">Послуги</a>
-        <a href="/" class="header__navbar_link">Кадалог товарів</a>
+        <a href="./pages/servicesCatalog.html" class="header__navbar_link">Послуги</a>
+        <a href="./pages/catalog.html" class="header__navbar_link">Кадалог товарів</a>
         <a href="/" class="header__navbar_link">Акції</a>
         <a href="/" class="header__navbar_link">Контакти</a>
       </div>
@@ -32,24 +34,32 @@
         </div>
 
         <div class="header__info_adress">
-          <img src="./images/map.svg" alt="map">
+          <a target="_blank" href="https://www.google.com/maps/place/%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0,+6,+2%D0%B1,+%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE,+%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+49000/data=!4m2!3m1!1s0x40dbe2dd602611c3:0xa435da45904f0c1a?sa=X&ved=2ahUKEwiZqebQl7CEAxWCQvEDHR4OD7YQ8gF6BAgcEAA" class="header__info_adress_link">
+            <img src="./images/map.svg" alt="map">
+          </a>
 
-          <div class="header__info_adress_wrapper">
-            <a href="/" class="header__info_adress_link">м.Дніпро</a>
-            <a href="/" class="header__info_adress_link">вул.Центральна 6-2б</a>
-          </div>
+          <a target="_blank" href="https://www.google.com/maps/place/%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0,+6,+2%D0%B1,+%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE,+%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+49000/data=!4m2!3m1!1s0x40dbe2dd602611c3:0xa435da45904f0c1a?sa=X&ved=2ahUKEwiZqebQl7CEAxWCQvEDHR4OD7YQ8gF6BAgcEAA" class="header__info_adress_wrapper_links">
+            <div class="header__info_adress_wrapper">
+              <span class="header__info_adress_link">м.Дніпро</span>
+              <span class="header__info_adress_link">вул.Центральна 6-2б</span>
+            </div>
+          </a>
         </div>
 
 
         <div class="header__info_number">
           <div class="header__info_number_wrapper">
             <img src="./images/phone.svg" alt="phone">
-            <a href="/" class="header__info_number_link">+38 (096) 004 25 33</a>
+            <a href="tel:+380960042533" target="_blank" class="header__info_number_link">
+              +38 (096) 004 25 33
+            </a>
           </div>
 
           <div class="header__info_number_wrapper">
             <img src="./images/phone.svg" alt="phone">
-            <a href="/" class="header__info_number_link">+38 (050) 505 81 99</a>
+            <a href="tel:+380505058199" target="_blank" class="header__info_number_link">
+              +38 (050) 505 81 99
+            </a>
           </div>
         </div>
 
@@ -77,7 +87,9 @@
               <span>Записатися на прийом</span>
               <img src="./images/go.svg" alt="go" class="hero__buttons_register_arrow">
             </button>
-            <button class="hero__buttons_lernmore">Дізнатися більше</button>
+            <a href="./pages/aboutPage.html" class="hero__buttons_lernmore_link">
+              <button class="hero__buttons_lernmore">Дізнатися більше</button>
+            </a>
           </div>
         </div>
       </section>
@@ -220,7 +232,9 @@
         <div class="services__headWrapper">
           <p class="services__title">Послуги</p>
           <p class="services__headTitle">Що ми робимо Що ми робимо</p>
-          <button class="services__allButton">Усі послуги</button>
+          <a href="./pages/servicesCatalog.html" class="insideLink buttonLink">
+            <button class="services__allButton">Усі послуги</button>
+          </a>
         </div>
 
         <div class="services__sliderWrapper">
@@ -231,7 +245,9 @@
               <p class="services__slider_card_text">
                 Наша клініка обладнана передовими технологіями для надання сучасних і ефективних медичних послуг
               </p>
-              <button class="services__slider_card_button">Дізнатися більше</button>
+              <a href="./pages/kinesiotapingService.html">
+                <button class="services__slider_card_button">Дізнатися більше</button>
+              </a>
             </div>
             <div class="services__slider_card">
               <img src="./images/babyfoot.png" alt="Дитячий ортопед" class="services__slider_card_img">
@@ -239,7 +255,9 @@
               <p class="services__slider_card_text">
                 Основою лікування є розвиток дитини, треба створити умови для правильного формування його опорно-рухового апарату
               </p>
-              <button class="services__slider_card_button">Дізнатися більше</button>
+              <a href="./pages/kidsCategory.html">
+                <button class="services__slider_card_button">Дізнатися більше</button>
+              </a>
             </div>
             <div class="services__slider_card services__slider_card--last">
               <img src="./images/footwoman.png" alt="Лікування плоскостопості" class="services__slider_card_img">
@@ -329,7 +347,9 @@
               Наша клініка обладнана передовими технологіями для надання сучасних і ефективних медичних послуг
             </p>
 
-            <button class="learnMoreButton learnMoreButton--videoBlock">Дізнатися більше</button>
+            <a href="./pages/aboutPage.html">
+              <button class="learnMoreButton learnMoreButton--videoBlock">Дізнатися більше</button>
+            </a>
           </div>
           <div class="videoBlock__textBlock_bottom">
             <p class="videoBlock__textBlock_bottom_title">
@@ -340,7 +360,9 @@
             </p>
 
             <div class="videoBlock__textBlock_bottom_buttonWrapper">
-              <button class="learnMoreButton">Дізнатися більше</button>
+              <a href="./pages/aboutPage.html">
+                <button class="learnMoreButton">Дізнатися більше</button>
+              </a>
               <button class="button videoBlock__textBlock_bottom_buttonWrapper_button">
                 Проконсультуватися
               </button>
@@ -478,7 +500,9 @@
                     <span>Записатися на прийом</span>
                     <img src="./images/go.svg" alt="go" class="button_arrow">
                   </button>
-                  <button class="learnMoreButton">Дізнатися більше</button>
+                  <a class="insideLink" href="./pages/individualServicePage.html">
+                    <button class="learnMoreButton">Дізнатися більше</button>
+                  </a>
                 </div>
               </div>
               <img src="./images/card1.png" alt="card1">
@@ -500,7 +524,9 @@
                     <span>Записатися на прийом</span>
                     <img src="./images/go.svg" alt="go" class="button_arrow">
                   </button>
-                  <button class="learnMoreButton">Дізнатися більше</button>
+                  <a class="insideLink" href="./pages/personalizationService.html">
+                    <button class="learnMoreButton">Дізнатися більше</button>
+                  </a>
                 </div>
               </div>
               <img src="./images/card2.png" alt="card2">
@@ -522,17 +548,21 @@
                     <span>Записатися на прийом</span>
                     <img src="./images/go.svg" alt="go" class="button_arrow">
                   </button>
-                  <button class="learnMoreButton">Дізнатися більше</button>
+                  <a class="insideLink" href="./pages/serviceReady.html">
+                    <button class="learnMoreButton">Дізнатися більше</button>
+                  </a>
                 </div>
               </div>
               <img src="./images/card3.png" alt="card3">
             </div>
           </div>
 
-          <button class="button insolesTypes__cardList_button">
-            Перейти в каталог товарів
-            <img src="./images/go.svg" alt="go">
-          </button>
+          <a href="./pages/catalog.html" class="link_catalog">
+            <button class="button insolesTypes__cardList_button">
+              Перейти в каталог товарів
+              <img src="./images/go.svg" alt="go">
+            </button>
+          </a>
         </div>
       </section>
 
@@ -800,7 +830,9 @@
                       >
                       <p class="contacts__contactBlock_top_adress_street_text">м.Дніпро, <br> вул.Центральна, 6-2б</p>
                     </div>
-                    <button class="contacts__contactBlock_top_adress_street_button">Показати на мапі</button>
+                    <a target="_blank" href="https://www.google.com/maps/place/%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0,+6,+2%D0%B1,+%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE,+%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+49000/data=!4m2!3m1!1s0x40dbe2dd602611c3:0xa435da45904f0c1a?sa=X&ved=2ahUKEwiZqebQl7CEAxWCQvEDHR4OD7YQ8gF6BAgcEAA" class="insideLink">
+                      <button class="contacts__contactBlock_top_adress_street_button">Показати на мапі</button>
+                    </a>
                   </div>
 
                   <div class="contacts__contactBlock_top_adress_time">
@@ -832,7 +864,7 @@
                         class="contacts__contactBlock_top_adress_number_phone_img"
                       >
                       <p class="contacts__contactBlock_top_adress_number_phone_text">
-                        +38 (096) 004 25 33
+                        <a href="tel:+38 (096) 004 25 33" class="contacts__link">+38 (096) 004 25 33</a>
                       </p>
                     </div>
                     <div class="contacts__contactBlock_top_adress_number_phone">
@@ -842,7 +874,7 @@
                         class="contacts__contactBlock_top_adress_number_phone_img"
                       >
                       <p class="contacts__contactBlock_top_adress_number_phone_text">
-                        +38 (050) 505 81 99
+                        <a href="tel:+38 (050) 505 81 99" class="contacts__link">+38 (050) 505 81 99</a>
                       </p>
                     </div>
                   </div>
@@ -896,35 +928,35 @@
           <div class="footer__main_links_link_wrapper">
             <p class="footer__main_links_title">Компанія</p>
             <a href="/" class="footer__main_links_link">Пройти тест стопи</a>
-            <a href="/" class="footer__main_links_link">Про компанію</a>
+            <a href="./pages/aboutPage.html" class="footer__main_links_link">Про компанію</a>
             <a href="/" class="footer__main_links_link">Відео</a>
             <a href="/" class="footer__main_links_link">Відгуки</a>
             <a href="/" class="footer__main_links_link">Акції</a>
             <a href="/" class="footer__main_links_link">Журнал</a>
             <a href="/" class="footer__main_links_link">Ліцензії</a>
             <a href="/" class="footer__main_links_link">Для партнерiр</a>
-            <a href="/" class="footer__main_links_link">Як нас знайти</a>
+            <a target="_blank" href="https://www.google.com/maps/place/%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0,+6,+2%D0%B1,+%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE,+%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+49000/data=!4m2!3m1!1s0x40dbe2dd602611c3:0xa435da45904f0c1a?sa=X&ved=2ahUKEwiZqebQl7CEAxWCQvEDHR4OD7YQ8gF6BAgcEAA" class="footer__main_links_link">Як нас знайти</a>
           </div>
 
           <div class="footer__main_links_link_wrapper">
             <p class="footer__main_links_title">Послуги</p>
-            <a href="/" class="footer__main_links_link">Кінезіотейпування</a>
-            <a href="/" class="footer__main_links_link">Дитячий ортопед</a>
+            <a href="./pages/kinesiotapingService.html" class="footer__main_links_link">Кінезіотейпування</a>
+            <a href="./pages/kidsCategory.html" class="footer__main_links_link">Дитячий ортопед</a>
             <a href="/" class="footer__main_links_link">Лікування плоскостопості</a>
             <a href="/" class="footer__main_links_link">Вальгус (Valgus)</a>
             <a href="/" class="footer__main_links_link">Лікування сколіозу</a>
             <a href="/" class="footer__main_links_link">Лікування остеохондрозу</a>
             <a href="/" class="footer__main_links_link">Лікування артрозу</a>
             <a href="/" class="footer__main_links_link">Кісточки на ногах</a>
-            <a href="/" class="footer__main_links_link">Усі послуги</a>
+            <a href="./pages/servicesCatalog.html" class="footer__main_links_link">Усі послуги</a>
           </div>
 
           <div class="footer__main_links_link_wrapper">
             <p class="footer__main_links_title">Устілки</p>
-            <a href="/" class="footer__main_links_link">Індивідуальні (лікарські) рішення</a>
-            <a href="/" class="footer__main_links_link">Готові з персоналізацією</a>
-            <a href="/" class="footer__main_links_link">Готові рішення</a>
-            <a href="/" class="footer__main_links_link">Усi товари</a>
+            <a href="./pages/individualServicePage.html" class="footer__main_links_link">Індивідуальні (лікарські) рішення</a>
+            <a href="./pages/personalizationService.html" class="footer__main_links_link">Готові з персоналізацією</a>
+            <a href="./pages/serviceReady.html" class="footer__main_links_link">Готові рішення</a>
+            <a href="./pages/allGoods.html" class="footer__main_links_link">Усi товари</a>
           </div>
         </div>
       </div>
