@@ -278,7 +278,15 @@ body {
 @media screen and (max-width: 1500px) {
   .hero__title {
     width: 600px;
-    top: 270px;
+    top: 250px;
+    right: 60px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .hero__title {
+    width: 600px;
+    top: 200px;
     right: 60px;
   }
 }
@@ -620,6 +628,8 @@ body {
 
 .mainProd__rightBlock {
   margin-right: 42px;
+  background-color: #fff;
+  border-radius: 40px;
 }
 
 .mainProd__rightBlock_content {
@@ -2016,6 +2026,10 @@ body {
   position: absolute;
   bottom: 30px;
   left: 40px;
+}
+
+.feedback__body_card--last {
+  display: flex;
 }
 
 /* questions */

@@ -61,21 +61,3 @@ if (window.innerWidth > 1570) {
 } else {
   feedbackCard.style.display = 'none'
 }
-
-// function checkWindowWidth() {
-//   const windowWidth = window.innerWidth;
-
-//   const img1200 = document.querySelector('.contacts_img--1200');
-//   const img = document.querySelector('.contacts_img');
-
-//   if (windowWidth < 1500) {
-//       img.classList.remove('contacts_img');
-//       img1200.classList.add('contacts_img--1200');
-//   } else {
-//       img1200.classList.remove('contacts_img--1200');
-//       img.classList.add('contacts_img');
-//   }
-// }
-
-// window.onload = checkWindowWidth;
-// window.onresize = checkWindowWidth;
