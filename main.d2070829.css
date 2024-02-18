@@ -5,6 +5,25 @@ body {
   font-family: 'Rubik', sans-serif;
 }
 
+.insideLink {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link_catalog {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+
+  width: 100%;
+}
+
+.buttonLink {
+  height: 50px;
+}
+
 .title {
   font-weight: 400;
   font-size: 46px;
@@ -184,6 +203,16 @@ body {
   color: #00719b;
 }
 
+.header__info_adress_link {
+  display: flex;
+  align-items: center;
+  color: #00719b;
+}
+
+.header__info_adress_wrapper_links {
+  text-decoration: none;
+}
+
 .header__button {
   background: #00719b;
   border: 1px solid rgba(6, 115, 154, 0.9);
@@ -194,6 +223,10 @@ body {
 
 .header__buttonImage {
   margin-top: 4px;
+}
+
+.header__info_number_link {
+  color: #00719b;
 }
 
 /* hero */
@@ -245,7 +278,15 @@ body {
 @media screen and (max-width: 1500px) {
   .hero__title {
     width: 600px;
-    top: 270px;
+    top: 250px;
+    right: 60px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .hero__title {
+    width: 600px;
+    top: 200px;
     right: 60px;
   }
 }
@@ -309,6 +350,12 @@ body {
 
   background: none;
   border: none;
+  cursor: pointer;
+}
+
+.hero__buttons_lernmore_link {
+  display: flex;
+  align-items: center;
 }
 
 /* statistic */
@@ -581,6 +628,8 @@ body {
 
 .mainProd__rightBlock {
   margin-right: 42px;
+  background-color: #fff;
+  border-radius: 40px;
 }
 
 .mainProd__rightBlock_content {
@@ -843,6 +892,7 @@ body {
 
   background: #fff;
   color: #06739a;
+  cursor: pointer;
 }
 
 .services__headWrapper {
@@ -1572,6 +1622,8 @@ body {
   display: flex;
   gap: 10px;
   height: 50px;
+  width: 100%;
+  cursor: pointer;
 }
 
 /* appointment */
@@ -1976,6 +2028,16 @@ body {
   left: 40px;
 }
 
+.feedback__body_card--last {
+  display: flex;
+}
+
+@media screen and (max-width: 1525px) {
+  .feedback__body_card--last {
+    display: none;
+  }
+}
+
 /* questions */
 
 .questions {
@@ -2147,6 +2209,12 @@ body {
   font-size: 18px;
   color: #6aabc2;
   text-decoration: underline;
+  cursor: pointer;
+}
+
+.contacts__link {
+  color: #00719b;
+  text-decoration: none;
 }
 
 .contacts__contactBlock_top_adress_time_text {
