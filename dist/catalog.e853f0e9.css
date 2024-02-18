@@ -67,6 +67,37 @@
   height: 320px;
 }
 
+@media screen and (max-width: 1815px) {
+  .catalog-topCard {
+    width: 500px;
+  }
+
+  .catalog-midCard {
+    width: 350px;
+  }
+
+  .catalog-bottomCard {
+    width: 480px;
+  }
+}
+
+@media screen and (max-width: 1580px) {
+  .catalog-topCard {
+    width: 380px;
+    height: 500px;
+  }
+
+  .catalog-midCard {
+    width: 250px;
+    height: 280px;
+  }
+
+  .catalog-bottomCard {
+    width: 380px;
+    height: 280px;
+  }
+}
+
 .catalog-firstCard {
   background-image: url(/catalogIndividual.60b18408.png);
   background-position: center;

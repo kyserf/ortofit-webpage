@@ -118,16 +118,18 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   return newRequire;
 })({"about.js":[function(require,module,exports) {
-var feedbackCard = document.querySelector(".feedback__body_card--last");
+// const feedbackCard = document.querySelector(".feedback__body_card--last");
 var navbar = document.querySelector('.header__navbar');
 var testButton = document.querySelector('.header__button_test');
-window.addEventListener('resize', function () {
-  if (window.innerWidth > 1570) {
-    feedbackCard.style.display = "flex";
-  } else {
-    feedbackCard.style.display = "none";
-  }
-});
+
+// window.addEventListener('resize', function() {
+//   if (window.innerWidth > 1570) {
+//     feedbackCard.style.display = "flex";
+//   } else {
+//     feedbackCard.style.display = "none";
+//   }
+// });
+
 window.addEventListener('resize', function () {
   if (window.innerWidth > 1600) {
     navbar.style.display = 'flex';
@@ -144,11 +146,12 @@ if (window.innerWidth > 1600) {
   navbar.style.display = 'none';
   testButton.style.display = 'block';
 }
-if (window.innerWidth > 1570) {
-  feedbackCard.style.display = 'flex';
-} else {
-  feedbackCard.style.display = 'none';
-}
+
+// if (window.innerWidth > 1570) {
+//   feedbackCard.style.display = 'flex';
+// } else {
+//   feedbackCard.style.display = 'none'
+// }
 },{}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -174,7 +177,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59591" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51131" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

@@ -38,6 +38,12 @@
   gap: 20px;
 }
 
+@media screen and (max-width: 1830px) {
+  .servicesSection__listOfServices_wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 .servicesSection__listOfServices_register {
   display: flex;
   flex-direction: column;
@@ -57,6 +63,12 @@
   box-shadow: 0 0 20px 0 rgba(0, 113, 155, 0.1);
   background: #00719b;
   border-radius: 40px;
+}
+
+@media screen and (max-width: 1830px) {
+  .servicesSection__listOfServices_register {
+    display: none;
+  }
 }
 
 .servicesSection__listOfServices_register_wrapper {

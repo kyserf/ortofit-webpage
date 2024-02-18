@@ -2032,6 +2032,12 @@ body {
   display: flex;
 }
 
+@media screen and (max-width: 1525px) {
+  .feedback__body_card--last {
+    display: none;
+  }
+}
+
 /* questions */
 
 .questions {
