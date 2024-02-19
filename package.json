@@ -2,7 +2,7 @@
   "name": "ortofit-webpage",
   "version": "1.0.0",
   "description": "",
-  "main": "ingex.html",
+  "main": "/index.html",
   "scripts": {
     "start": "parcel index.html",
     "deploy": "gh-pages -d dist",
