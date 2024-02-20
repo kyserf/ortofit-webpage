@@ -5,6 +5,12 @@
   color: #00719b;
 }
 
+@media screen and (max-width: 1800px) {
+  .product__wrapper {
+    flex-direction: column;
+  }
+}
+
 .product__photoBlock {
   width: 754px;
   padding-left: 30px;
@@ -138,11 +144,23 @@
   justify-content: space-between;
 }
 
+@media screen and (max-width: 1850px) {
+  .rewiew__videoBlock {
+    flex-direction: column;
+  }
+}
+
 .rewiew__videoBlock_mainVideo {
   width: 750px;
   height: 754px;
 
   margin-left: 60px;
+}
+
+@media screen and (max-width: 1850px) {
+  .rewiew__videoBlock_mainVideo {
+    margin-bottom: 30px;;
+  }
 }
 
 .rewiew__videoBlock_wrapper {
@@ -182,6 +200,18 @@
 
 div .card--recomened {
   width: 580px;
+}
+
+@media screen and (max-width: 1850px) {
+  div .card--recomenedThird {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  div .card--recomenedSecond {
+    display: none;
+  }
 }
 
 div .recomendCard--img {

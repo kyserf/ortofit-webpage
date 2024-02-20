@@ -8,6 +8,13 @@
   color: #00719b;
 }
 
+@media screen and (max-width: 1600px) {
+  .youtube {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
 .youtube__titleBlock {
   display: flex;
   flex-direction: column;
