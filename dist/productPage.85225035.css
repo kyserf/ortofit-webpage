@@ -26,6 +26,12 @@
 .product__photoBlock_photoList_photo {
   width: 212px;
   height: 212px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.product__photoBlock_photoList_photo:hover {
+  transform: scale(1.2);
 }
 
 .product__photoBlock_description_title {
@@ -80,6 +86,15 @@
 .product__infoBlock_sizeBlock_button {
   width: 500px;
   height: 50px;
+
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.product__infoBlock_sizeBlock_button:hover {
+  background: #fff;
+  border: 1px solid #00719b;
+  color: #00719b;
 }
 
 .product__infoBlock_descriptionBlock_card {

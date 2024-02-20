@@ -328,11 +328,15 @@ body {
 
 .hero__title {
   position: absolute;
-  top: 370px;
+  top: 215px;
   right: 255px;
 
   color: #fff;
   width: 520px;
+}
+
+.hero__title--main {
+  top: 370px;
 }
 
 @media screen and (max-width: 1500px) {
@@ -349,6 +353,12 @@ body {
     top: 200px;
     right: 60px;
   }
+}
+
+.hero__title_pageName {
+  font-size: 30px;
+  color: #fff;
+  opacity: 0.3;
 }
 
 .hero__titleName {
@@ -1114,6 +1124,13 @@ body {
   background: #fff;
   color: #06739a;
   cursor: pointer;
+  transition: all 0.3s;
+}
+
+.services__allButton:hover {
+  background-color: #06739a;
+  color: #fff;
+  box-shadow: 0 0 24px 0 rgba(25, 48, 56, 0.36);
 }
 
 .services__headWrapper {

@@ -117,11 +117,11 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"styles/catalog.css":[function(require,module,exports) {
+})({"styles/videoPage.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\images\\heroCatalog.png":[["heroCatalog.ce271556.png","images/heroCatalog.png"],"images/heroCatalog.png"],"./..\\images\\catalogIndividual.png":[["catalogIndividual.60b18408.png","images/catalogIndividual.png"],"images/catalogIndividual.png"],"./..\\images\\catalogReady.png":[["catalogReady.4c5e83a4.png","images/catalogReady.png"],"images/catalogReady.png"],"./..\\images\\catalogReady2.png":[["catalogReady2.b02539a0.png","images/catalogReady2.png"],"images/catalogReady2.png"],"./..\\images\\catalogsocks.png":[["catalogsocks.69e19b78.png","images/catalogsocks.png"],"images/catalogsocks.png"],"./..\\images\\catalogStretch.png":[["catalogStretch.d6064c02.png","images/catalogStretch.png"],"images/catalogStretch.png"],"./..\\images\\catalogEveryday.png":[["catalogEveryday.ee648eed.png","images/catalogEveryday.png"],"images/catalogEveryday.png"],"./..\\images\\catalogKids.png":[["catalogKids.a8f70e6d.png","images/catalogKids.png"],"images/catalogKids.png"],"./..\\images\\catalogModel.png":[["catalogModel.b26d9358.png","images/catalogModel.png"],"images/catalogModel.png"],"./..\\images\\catalogSport.png":[["catalogSport.9c7a32a9.png","images/catalogSport.png"],"images/catalogSport.png"],"./..\\images\\catalogAll.png":[["catalogAll.a7e5ecde.png","images/catalogAll.png"],"images/catalogAll.png"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -403,4 +403,4 @@ module.exports = function loadJSBundle(bundle) {
 },{}],0:[function(require,module,exports) {
 var b=require("../node_modules/parcel-bundler/src/builtins/bundle-loader.js");b.register("js",require("../node_modules/parcel-bundler/src/builtins/loaders/browser/js-loader.js"));b.load([]);
 },{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js",0], null)
-//# sourceMappingURL=/catalog.e853f0e9.js.map
+//# sourceMappingURL=/videoPage.b640eebc.js.map

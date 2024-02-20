@@ -1,0 +1,64 @@
+.hero__title-videoPage {
+  top: 230px;
+}
+
+.youtube {
+  display: flex;
+  justify-content: space-between;
+  color: #00719b;
+}
+
+.youtube__titleBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  width: 600px;
+}
+
+.youtube__titleBlock_title {
+  font-size: 46px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.youtube__titleBlock_text {
+  font-size: 17px;
+}
+
+.youtube__adBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 937px;
+  height: 445px;
+  border-radius: 40px;
+
+  color: #fff;
+  box-shadow: 0 0 15px 0 rgba(0, 113, 155, 0.07);
+  background-color: #00719b;
+}
+
+.youtube__adBlock_text {
+  font-size: 30px;
+  margin-left: 40px;
+  margin-top: 40px;
+
+  width: 580px;
+}
+
+.youtube__adBlock_button {
+  width: 300px;
+  height: 50px; 
+  border: 1px solid #00719b;
+  border-radius: 45px;
+
+  background: #fff;
+  color: #00719b;
+
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
+
+/*# sourceMappingURL=/videoPage.b640eebc.css.map */
