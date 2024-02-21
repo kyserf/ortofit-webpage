@@ -7,17 +7,18 @@
     <link rel="stylesheet" href="/catalog.e853f0e9.css">
     <link rel="stylesheet" href="/allGoods.1e0051b8.css">
     <link rel="stylesheet" href="/kidsCategory.5a3b436a.css">
-    <title>Document</title>
-  <script src="/allGoods.1e0051b8.js"></script><script src="/kidsCategory.5a3b436a.js"></script></head>
+    <link rel="icon" href="/icon.82bf699d.png">
+    <title>Дитячі товари</title>
+  <script src="/kidsCategory.5a3b436a.js"></script></head>
   <body>
     <header class="header">
       <img src="/logo.6023b87e.png" alt="Logo" class="header__logo">
       <div class="header__navbar">
         <a href="/pages\aboutPage.html" class="header__navbar_link">Про компанію</a>
-        <a href="/" class="header__navbar_link">Послуги</a>
+        <a href="/pages\servicesCatalog.html" class="header__navbar_link">Послуги</a>
         <a href="/pages\catalog.html" class="header__navbar_link">Кадалог товарів</a>
-        <a href="/" class="header__navbar_link">Акції</a>
-        <a href="/" class="header__navbar_link">Контакти</a>
+        <a href="/pages\discountPage.html" class="header__navbar_link">Акції</a>
+        <a href="/pages\contacts.html" class="header__navbar_link">Контакти</a>
       </div>
 
       <div class="header__info">
@@ -29,11 +30,17 @@
         </div>
 
         <div class="header__info_adress">
-          <img src="/map.e6cebe79.svg" alt="map">
-
-          <div class="header__info_adress_wrapper">
-            <a href="/" class="header__info_adress_link">м.Дніпро</a>
-            <a href="/" class="header__info_adress_link">вул.Центральна 6-2б</a>
+          <div class="header__info_adress">
+            <a target="_blank" href="https://www.google.com/maps/place/%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0,+6,+2%D0%B1,+%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE,+%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+49000/data=!4m2!3m1!1s0x40dbe2dd602611c3:0xa435da45904f0c1a?sa=X&ved=2ahUKEwiZqebQl7CEAxWCQvEDHR4OD7YQ8gF6BAgcEAA" class="header__info_adress_link">
+              <img src="/map.e6cebe79.svg" alt="map">
+            </a>
+  
+            <a target="_blank" href="https://www.google.com/maps/place/%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0,+6,+2%D0%B1,+%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE,+%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+49000/data=!4m2!3m1!1s0x40dbe2dd602611c3:0xa435da45904f0c1a?sa=X&ved=2ahUKEwiZqebQl7CEAxWCQvEDHR4OD7YQ8gF6BAgcEAA" class="header__info_adress_wrapper_links">
+              <div class="header__info_adress_wrapper">
+                <span class="header__info_adress_link">м.Дніпро</span>
+                <span class="header__info_adress_link">вул.Центральна 6-2б</span>
+              </div>
+            </a>
           </div>
         </div>
 
@@ -63,6 +70,7 @@
     <main class="main">
       <section class="hero catalog_hero">
         <div class="hero__title">
+          <p class="hero__title_pageName">Дитячі</p>
           <h1 class="hero__titleName">Крокуйте <br> без болю</h1>
 
           <p class="hero__title_remark">
@@ -70,6 +78,14 @@
           </p>
         </div>
       </section>
+
+      <section class="route">
+        <p class="route__base">Ортофіт</p>
+        <img src="/provide.e15c887a.svg" alt="route" class="route__provide">
+        <p class="route__base">Каталог товарів</p>
+        <img src="/provide.e15c887a.svg" alt="route" class="route__provide">
+        <p class="route__nextPage">Дитячі</p>
+      </section> 
 
       <section class="statistic">
         <div class="statistic__callToAction">
@@ -155,355 +171,409 @@
 
       <section class="productsListBlock container">
         <div class="productsListBlock__head">
-          <button></button>
+          <button class="productsListBlock__head_button">
+            <img src="/menu.2b71b4ce.svg" alt="sort">
+            <span>Популярні</span>
+            <img src="/more.e9a42872.svg" alt="sort">
+          </button>
         </div>
 
         <div class="productsListBlock__body">
           <div class="productsListBlock__body_listOfProducts">
             <div class="productsListBlock__body_listOfProducts_rowWrapper">
-              <div class="productsListBlock__body_listOfProducts_prodCard prodcard--adRow">
-                <img src="/plugcatalog.9d36d47f.png" alt="product" class="productsListBlock__body_listOfProducts_prodCard_img">
-                <p class="productsListBlock__body_listOfProducts_prodCard_title
-                productsListBlock__body_listOfProducts_prodCard_content">
-                  Ski comfort <br> black/orange
-                </p>
-                <p class="productsListBlock__body_listOfProducts_prodCard_description
-                productsListBlock__body_listOfProducts_prodCard_content">
-                  Чорно-Помаранчеві Ортопедичні Устілки для Комфортного Гірськолижного Відпочинку
-                </p>
-  
-                <div class="productsListBlock__body_listOfProducts_prodCard_priceWrapper
-                productsListBlock__body_listOfProducts_prodCard_content">
-                  <p class="productsListBlock__body_listOfProducts_prodCard_price">
-                    220,79 <span class="gryvna">₴</span>
-                  </p>
-                  <button class="button productsListBlock__body_listOfProducts_prodCard_button">
-                    <span class="button__text">Замовити</span>
-                    <img src="/go.141cf876.svg" alt="go">
-                  </button>
-                </div>
-              </div>
-  
-              <div class="productsListBlock__body_listOfProducts_prodCard prodcard--adRow">
-                <img src="/plugcatalog.9d36d47f.png" alt="product" class="productsListBlock__body_listOfProducts_prodCard_img">
-                <p class="productsListBlock__body_listOfProducts_prodCard_title
-                productsListBlock__body_listOfProducts_prodCard_content">
-                  Ski comfort <br> black/orange
-                </p>
-                <p class="productsListBlock__body_listOfProducts_prodCard_description
-                productsListBlock__body_listOfProducts_prodCard_content">
-                  Чорно-Помаранчеві Ортопедичні Устілки для Комфортного Гірськолижного Відпочинку
-                </p>
-  
-                <div class="productsListBlock__body_listOfProducts_prodCard_priceWrapper
-                productsListBlock__body_listOfProducts_prodCard_content">
-                  <p class="productsListBlock__body_listOfProducts_prodCard_price">
-                    220,79 <span class="gryvna">₴</span>
-                  </p>
-                  <button class="button productsListBlock__body_listOfProducts_prodCard_button">
-                    <span class="button__text">Замовити</span>
-                    <img src="/go.141cf876.svg" alt="go">
-                  </button>
-                </div>
-              </div>
-  
-              <div class="productsListBlock__body_listOfProducts_prodCard prodcard--ad">
-                <div class="prodcard--ad__imgWrapper">
-                  <img src="/adPhotoCard.a3308f8e.png" alt="product" class="productsListBlock__body_listOfProducts_prodCard_img prodcard--ad__img">
-                  <div class="prodcard--ad__sale">
-                    <span>Розпродаж</span>
+              <a href="/pages\productPage.html" class="productsListBlock__body_listOfProducts_link">
+                <div class="productsListBlock__body_listOfProducts_prodCard prodcard--adRow">
+                  <div class="productsListBlock__body_listOfProducts_prodCard_imgWrapper">
+                    <img src="/allgoodsplug.e746b2bc.png" alt="product" class="productsListBlock__body_listOfProducts_prodCard_img">
                   </div>
-
-                  <p class="prodcard--ad__title">Вибір <br> тижня</p>
-
-                  <div class="prodcard--ad__num">
-                    <span>-25%</span>
+                  <p class="productsListBlock__body_listOfProducts_prodCard_title
+                  productsListBlock__body_listOfProducts_prodCard_content">
+                    Ski comfort <br> black/orange
+                  </p>
+                  <p class="productsListBlock__body_listOfProducts_prodCard_description
+                  productsListBlock__body_listOfProducts_prodCard_content">
+                    Чорно-Помаранчеві Ортопедичні Устілки для Комфортного Гірськолижного Відпочинку
+                  </p>
+    
+                  <div class="productsListBlock__body_listOfProducts_prodCard_priceWrapper
+                  productsListBlock__body_listOfProducts_prodCard_content">
+                    <p class="productsListBlock__body_listOfProducts_prodCard_price">
+                      220,79 <span class="gryvna">₴</span>
+                    </p>
+                    <button class="button productsListBlock__body_listOfProducts_prodCard_button">
+                      <span class="button__text">Замовити</span>
+                      <img src="/go.141cf876.svg" alt="go">
+                    </button>
                   </div>
                 </div>
-                <p class="productsListBlock__body_listOfProducts_prodCard_title prodcard--ad__content">
-                  Ski comfort black/orange
-                </p>
-                <p class="productsListBlock__body_listOfProducts_prodCard_description prodcard--ad__content">
-                  Чорно-Помаранчеві Ортопедичні Устілки для Комфортного Гірськолижного Відпочинку
-                </p>
+              </a>
   
-                <div class="productsListBlock__body_listOfProducts_prodCard_priceWrapper prodcard--ad__content">
-                  <p class="productsListBlock__body_listOfProducts_prodCard_price">
-                    220,79 <span class="gryvna">₴</span>
+              <a href="/pages\productPage.html" class="productsListBlock__body_listOfProducts_link">
+                <div class="productsListBlock__body_listOfProducts_prodCard prodcard--adRow">
+                  <div class="productsListBlock__body_listOfProducts_prodCard_imgWrapper">
+                    <img src="/allgoodsplug.e746b2bc.png" alt="product" class="productsListBlock__body_listOfProducts_prodCard_img">
+                  </div>
+                  <p class="productsListBlock__body_listOfProducts_prodCard_title
+                  productsListBlock__body_listOfProducts_prodCard_content">
+                    Ski comfort <br> black/orange
                   </p>
-                  <button class="button productsListBlock__body_listOfProducts_prodCard_button">
-                    <span class="button__text">Замовити</span>
-                    <img src="/go.141cf876.svg" alt="go">
-                  </button>
+                  <p class="productsListBlock__body_listOfProducts_prodCard_description
+                  productsListBlock__body_listOfProducts_prodCard_content">
+                    Чорно-Помаранчеві Ортопедичні Устілки для Комфортного Гірськолижного Відпочинку
+                  </p>
+    
+                  <div class="productsListBlock__body_listOfProducts_prodCard_priceWrapper
+                  productsListBlock__body_listOfProducts_prodCard_content">
+                    <p class="productsListBlock__body_listOfProducts_prodCard_price">
+                      220,79 <span class="gryvna">₴</span>
+                    </p>
+                    <button class="button productsListBlock__body_listOfProducts_prodCard_button">
+                      <span class="button__text">Замовити</span>
+                      <img src="/go.141cf876.svg" alt="go">
+                    </button>
+                  </div>
                 </div>
-              </div>
+              </a>
+  
+              <a href="/pages\productPage.html" class="productsListBlock__body_listOfProducts_link">
+                <div class="productsListBlock__body_listOfProducts_prodCard prodcard--ad">
+                  <div class="prodcard--ad__imgWrapper">
+                    <img src="/adPhotoCard.a3308f8e.png" alt="product" class="prodcard--ad__img">
+                    <div class="prodcard--ad__sale">
+                      <span>Розпродаж</span>
+                    </div>
+  
+                    <p class="prodcard--ad__title">Вибір <br> тижня</p>
+  
+                    <div class="prodcard--ad__num">
+                      <span>-25%</span>
+                    </div>
+                  </div>
+                  <p class="productsListBlock__body_listOfProducts_prodCard_title prodcard--ad__content">
+                    Ski comfort black/orange
+                  </p>
+                  <p class="productsListBlock__body_listOfProducts_prodCard_description prodcard--ad__content">
+                    Чорно-Помаранчеві Ортопедичні Устілки для Комфортного Гірськолижного Відпочинку
+                  </p>
+    
+                  <div class="productsListBlock__body_listOfProducts_prodCard_priceWrapper prodcard--ad__content">
+                    <p class="productsListBlock__body_listOfProducts_prodCard_price productsListBlock__body_listOfProducts_prodCard_price--ad">
+                      220,79 <span class="gryvna">₴</span>
+                    </p>
+                    <button class="button productsListBlock__body_listOfProducts_prodCard_button button--ad">
+                      <span class="button__text">Замовити</span>
+                    </button>
+                  </div>
+                </div>
+              </a>
             </div>
 
             <div class="productsListBlock__body_listOfProducts_rowWrapper">
-              <div class="productsListBlock__body_listOfProducts_prodCard">
-                <img src="/plugcatalog.9d36d47f.png" alt="product" class="productsListBlock__body_listOfProducts_prodCard_img">
-                <p class="productsListBlock__body_listOfProducts_prodCard_title
-                productsListBlock__body_listOfProducts_prodCard_content">
-                  Ski comfort <br> black/orange
-                </p>
-                <p class="productsListBlock__body_listOfProducts_prodCard_description
-                productsListBlock__body_listOfProducts_prodCard_content">
-                  Чорно-Помаранчеві Ортопедичні Устілки для Комфортного Гірськолижного Відпочинку
-                </p>
-  
-                <div class="productsListBlock__body_listOfProducts_prodCard_priceWrapper
-                productsListBlock__body_listOfProducts_prodCard_content">
-                  <p class="productsListBlock__body_listOfProducts_prodCard_price">
-                    220,79 <span class="gryvna">₴</span>
+              <a href="/pages\productPage.html" class="productsListBlock__body_listOfProducts_link">
+                <div class="productsListBlock__body_listOfProducts_prodCard">
+                  <div class="productsListBlock__body_listOfProducts_prodCard_imgWrapper">
+                    <img src="/allgoodsplug.e746b2bc.png" alt="product" class="productsListBlock__body_listOfProducts_prodCard_img">
+                  </div>
+                  <p class="productsListBlock__body_listOfProducts_prodCard_title
+                  productsListBlock__body_listOfProducts_prodCard_content">
+                    Ski comfort <br> black/orange
                   </p>
-                  <button class="button productsListBlock__body_listOfProducts_prodCard_button">
-                    <span class="button__text">Замовити</span>
-                    <img src="/go.141cf876.svg" alt="go">
-                  </button>
-                </div>
-              </div>
-  
-              <div class="productsListBlock__body_listOfProducts_prodCard">
-                <img src="/plugcatalog.9d36d47f.png" alt="product" class="productsListBlock__body_listOfProducts_prodCard_img">
-                <p class="productsListBlock__body_listOfProducts_prodCard_title
-                productsListBlock__body_listOfProducts_prodCard_content">
-                  Ski comfort <br> black/orange
-                </p>
-                <p class="productsListBlock__body_listOfProducts_prodCard_description
-                productsListBlock__body_listOfProducts_prodCard_content">
-                  Чорно-Помаранчеві Ортопедичні Устілки для Комфортного Гірськолижного Відпочинку
-                </p>
-  
-                <div class="productsListBlock__body_listOfProducts_prodCard_priceWrapper
-                productsListBlock__body_listOfProducts_prodCard_content">
-                  <p class="productsListBlock__body_listOfProducts_prodCard_price">
-                    220,79 <span class="gryvna">₴</span>
+                  <p class="productsListBlock__body_listOfProducts_prodCard_description
+                  productsListBlock__body_listOfProducts_prodCard_content">
+                    Чорно-Помаранчеві Ортопедичні Устілки для Комфортного Гірськолижного Відпочинку
                   </p>
-                  <button class="button productsListBlock__body_listOfProducts_prodCard_button">
-                    <span class="button__text">Замовити</span>
-                    <img src="/go.141cf876.svg" alt="go">
-                  </button>
+    
+                  <div class="productsListBlock__body_listOfProducts_prodCard_priceWrapper
+                  productsListBlock__body_listOfProducts_prodCard_content">
+                    <p class="productsListBlock__body_listOfProducts_prodCard_price">
+                      220,79 <span class="gryvna">₴</span>
+                    </p>
+                    <button class="button productsListBlock__body_listOfProducts_prodCard_button">
+                      <span class="button__text">Замовити</span>
+                      <img src="/go.141cf876.svg" alt="go">
+                    </button>
+                  </div>
                 </div>
-              </div>
+              </a>
   
-              <div class="productsListBlock__body_listOfProducts_prodCard">
-                <img src="/plugcatalog.9d36d47f.png" alt="product" class="productsListBlock__body_listOfProducts_prodCard_img">
-                <p class="productsListBlock__body_listOfProducts_prodCard_title
-                productsListBlock__body_listOfProducts_prodCard_content">
-                  Ski comfort <br> black/orange
-                </p>
-                <p class="productsListBlock__body_listOfProducts_prodCard_description
-                productsListBlock__body_listOfProducts_prodCard_content">
-                  Чорно-Помаранчеві Ортопедичні Устілки для Комфортного Гірськолижного Відпочинку
-                </p>
-  
-                <div class="productsListBlock__body_listOfProducts_prodCard_priceWrapper
-                productsListBlock__body_listOfProducts_prodCard_content">
-                  <p class="productsListBlock__body_listOfProducts_prodCard_price">
-                    220,79 <span class="gryvna">₴</span>
+              <a href="/pages\productPage.html" class="productsListBlock__body_listOfProducts_link">
+                <div class="productsListBlock__body_listOfProducts_prodCard">
+                  <div class="productsListBlock__body_listOfProducts_prodCard_imgWrapper">
+                    <img src="/allgoodsplug.e746b2bc.png" alt="product" class="productsListBlock__body_listOfProducts_prodCard_img">
+                  </div>
+                  <p class="productsListBlock__body_listOfProducts_prodCard_title
+                  productsListBlock__body_listOfProducts_prodCard_content">
+                    Ski comfort <br> black/orange
                   </p>
-                  <button class="button productsListBlock__body_listOfProducts_prodCard_button">
-                    <span class="button__text">Замовити</span>
-                    <img src="/go.141cf876.svg" alt="go">
-                  </button>
-                </div>
-              </div>
-  
-              <div class="productsListBlock__body_listOfProducts_prodCard">
-                <img src="/plugcatalog.9d36d47f.png" alt="product" class="productsListBlock__body_listOfProducts_prodCard_img">
-                <p class="productsListBlock__body_listOfProducts_prodCard_title
-                productsListBlock__body_listOfProducts_prodCard_content">
-                  Ski comfort <br> black/orange
-                </p>
-                <p class="productsListBlock__body_listOfProducts_prodCard_description
-                productsListBlock__body_listOfProducts_prodCard_content">
-                  Чорно-Помаранчеві Ортопедичні Устілки для Комфортного Гірськолижного Відпочинку
-                </p>
-  
-                <div class="productsListBlock__body_listOfProducts_prodCard_priceWrapper
-                productsListBlock__body_listOfProducts_prodCard_content">
-                  <p class="productsListBlock__body_listOfProducts_prodCard_price">
-                    220,79 <span class="gryvna">₴</span>
+                  <p class="productsListBlock__body_listOfProducts_prodCard_description
+                  productsListBlock__body_listOfProducts_prodCard_content">
+                    Чорно-Помаранчеві Ортопедичні Устілки для Комфортного Гірськолижного Відпочинку
                   </p>
-                  <button class="button productsListBlock__body_listOfProducts_prodCard_button">
-                    <span class="button__text">Замовити</span>
-                    <img src="/go.141cf876.svg" alt="go">
-                  </button>
+    
+                  <div class="productsListBlock__body_listOfProducts_prodCard_priceWrapper
+                  productsListBlock__body_listOfProducts_prodCard_content">
+                    <p class="productsListBlock__body_listOfProducts_prodCard_price">
+                      220,79 <span class="gryvna">₴</span>
+                    </p>
+                    <button class="button productsListBlock__body_listOfProducts_prodCard_button">
+                      <span class="button__text">Замовити</span>
+                      <img src="/go.141cf876.svg" alt="go">
+                    </button>
+                  </div>
                 </div>
-              </div>
+              </a>
+  
+              <a href="/pages\productPage.html" class="productsListBlock__body_listOfProducts_link">
+                <div class="productsListBlock__body_listOfProducts_prodCard">
+                  <div class="productsListBlock__body_listOfProducts_prodCard_imgWrapper">
+                    <img src="/allgoodsplug.e746b2bc.png" alt="product" class="productsListBlock__body_listOfProducts_prodCard_img">
+                  </div>
+                  <p class="productsListBlock__body_listOfProducts_prodCard_title
+                  productsListBlock__body_listOfProducts_prodCard_content">
+                    Ski comfort <br> black/orange
+                  </p>
+                  <p class="productsListBlock__body_listOfProducts_prodCard_description
+                  productsListBlock__body_listOfProducts_prodCard_content">
+                    Чорно-Помаранчеві Ортопедичні Устілки для Комфортного Гірськолижного Відпочинку
+                  </p>
+    
+                  <div class="productsListBlock__body_listOfProducts_prodCard_priceWrapper
+                  productsListBlock__body_listOfProducts_prodCard_content">
+                    <p class="productsListBlock__body_listOfProducts_prodCard_price">
+                      220,79 <span class="gryvna">₴</span>
+                    </p>
+                    <button class="button productsListBlock__body_listOfProducts_prodCard_button">
+                      <span class="button__text">Замовити</span>
+                      <img src="/go.141cf876.svg" alt="go">
+                    </button>
+                  </div>
+                </div>
+              </a>
+  
+              <a href="/pages\productPage.html" class="productsListBlock__body_listOfProducts_link">
+                <div class="productsListBlock__body_listOfProducts_prodCard">
+                  <div class="productsListBlock__body_listOfProducts_prodCard_imgWrapper">
+                    <img src="/allgoodsplug.e746b2bc.png" alt="product" class="productsListBlock__body_listOfProducts_prodCard_img">
+                  </div>
+                  <p class="productsListBlock__body_listOfProducts_prodCard_title
+                  productsListBlock__body_listOfProducts_prodCard_content">
+                    Ski comfort <br> black/orange
+                  </p>
+                  <p class="productsListBlock__body_listOfProducts_prodCard_description
+                  productsListBlock__body_listOfProducts_prodCard_content">
+                    Чорно-Помаранчеві Ортопедичні Устілки для Комфортного Гірськолижного Відпочинку
+                  </p>
+    
+                  <div class="productsListBlock__body_listOfProducts_prodCard_priceWrapper
+                  productsListBlock__body_listOfProducts_prodCard_content">
+                    <p class="productsListBlock__body_listOfProducts_prodCard_price">
+                      220,79 <span class="gryvna">₴</span>
+                    </p>
+                    <button class="button productsListBlock__body_listOfProducts_prodCard_button">
+                      <span class="button__text">Замовити</span>
+                      <img src="/go.141cf876.svg" alt="go">
+                    </button>
+                  </div>
+                </div>
+              </a>
             </div>
 
             <div class="productsListBlock__body_listOfProducts_rowWrapper">
-              <div class="productsListBlock__body_listOfProducts_prodCard prodcard--ad">
-                <div class="prodcard--ad__imgWrapper">
-                  <img src="/adPhotoCard.a3308f8e.png" alt="product" class="productsListBlock__body_listOfProducts_prodCard_img prodcard--ad__img">
-                  <div class="prodcard--ad__sale">
-                    <span>Розпродаж</span>
+              <a href="/pages\productPage.html" class="productsListBlock__body_listOfProducts_link">
+                <div class="productsListBlock__body_listOfProducts_prodCard prodcard--ad">
+                  <div class="prodcard--ad__imgWrapper">
+                    <img src="/adPhotoCard.a3308f8e.png" alt="product" class="prodcard--ad__img">
+                    <div class="prodcard--ad__sale">
+                      <span>Розпродаж</span>
+                    </div>
+  
+                    <p class="prodcard--ad__title">Вибір <br> тижня</p>
+  
+                    <div class="prodcard--ad__num">
+                      <span>-25%</span>
+                    </div>
                   </div>
-
-                  <p class="prodcard--ad__title">Вибір <br> тижня</p>
-
-                  <div class="prodcard--ad__num">
-                    <span>-25%</span>
+                  <p class="productsListBlock__body_listOfProducts_prodCard_title prodcard--ad__content">
+                    Ski comfort black/orange
+                  </p>
+                  <p class="productsListBlock__body_listOfProducts_prodCard_description prodcard--ad__content">
+                    Чорно-Помаранчеві Ортопедичні Устілки для Комфортного Гірськолижного Відпочинку
+                  </p>
+    
+                  <div class="productsListBlock__body_listOfProducts_prodCard_priceWrapper prodcard--ad__content">
+                    <p class="productsListBlock__body_listOfProducts_prodCard_price productsListBlock__body_listOfProducts_prodCard_price--ad">
+                      220,79 <span class="gryvna">₴</span>
+                    </p>
+                    <button class="button productsListBlock__body_listOfProducts_prodCard_button button--ad">
+                      <span class="button__text">Замовити</span>
+                    </button>
                   </div>
                 </div>
-                <p class="productsListBlock__body_listOfProducts_prodCard_title prodcard--ad__content">
-                  Ski comfort black/orange
-                </p>
-                <p class="productsListBlock__body_listOfProducts_prodCard_description prodcard--ad__content">
-                  Чорно-Помаранчеві Ортопедичні Устілки для Комфортного Гірськолижного Відпочинку
-                </p>
+              </a>
   
-                <div class="productsListBlock__body_listOfProducts_prodCard_priceWrapper prodcard--ad__content">
-                  <p class="productsListBlock__body_listOfProducts_prodCard_price">
-                    220,79 <span class="gryvna">₴</span>
+              <a href="/pages\productPage.html" class="productsListBlock__body_listOfProducts_link">
+                <div class="productsListBlock__body_listOfProducts_prodCard prodcard--adRow">
+                  <div class="productsListBlock__body_listOfProducts_prodCard_imgWrapper">
+                    <img src="/allgoodsplug.e746b2bc.png" alt="product" class="productsListBlock__body_listOfProducts_prodCard_img">
+                  </div>
+                  <p class="productsListBlock__body_listOfProducts_prodCard_title
+                  productsListBlock__body_listOfProducts_prodCard_content">
+                    Ski comfort <br> black/orange
                   </p>
-                  <button class="button productsListBlock__body_listOfProducts_prodCard_button">
-                    <span class="button__text">Замовити</span>
-                    <img src="/go.141cf876.svg" alt="go">
-                  </button>
-                </div>
-              </div>
-  
-              <div class="productsListBlock__body_listOfProducts_prodCard prodcard--adRow">
-                <img src="/plugcatalog.9d36d47f.png" alt="product" class="productsListBlock__body_listOfProducts_prodCard_img">
-                <p class="productsListBlock__body_listOfProducts_prodCard_title
-                productsListBlock__body_listOfProducts_prodCard_content">
-                  Ski comfort <br> black/orange
-                </p>
-                <p class="productsListBlock__body_listOfProducts_prodCard_description
-                productsListBlock__body_listOfProducts_prodCard_content">
-                  Чорно-Помаранчеві Ортопедичні Устілки для Комфортного Гірськолижного Відпочинку
-                </p>
-  
-                <div class="productsListBlock__body_listOfProducts_prodCard_priceWrapper
-                productsListBlock__body_listOfProducts_prodCard_content">
-                  <p class="productsListBlock__body_listOfProducts_prodCard_price">
-                    220,79 <span class="gryvna">₴</span>
+                  <p class="productsListBlock__body_listOfProducts_prodCard_description
+                  productsListBlock__body_listOfProducts_prodCard_content">
+                    Чорно-Помаранчеві Ортопедичні Устілки для Комфортного Гірськолижного Відпочинку
                   </p>
-                  <button class="button productsListBlock__body_listOfProducts_prodCard_button">
-                    <span class="button__text">Замовити</span>
-                    <img src="/go.141cf876.svg" alt="go">
-                  </button>
+    
+                  <div class="productsListBlock__body_listOfProducts_prodCard_priceWrapper
+                  productsListBlock__body_listOfProducts_prodCard_content">
+                    <p class="productsListBlock__body_listOfProducts_prodCard_price">
+                      220,79 <span class="gryvna">₴</span>
+                    </p>
+                    <button class="button productsListBlock__body_listOfProducts_prodCard_button">
+                      <span class="button__text">Замовити</span>
+                      <img src="/go.141cf876.svg" alt="go">
+                    </button>
+                  </div>
                 </div>
-              </div>
+              </a>
   
-              <div class="productsListBlock__body_listOfProducts_prodCard prodcard--adRow">
-                <img src="/plugcatalog.9d36d47f.png" alt="product" class="productsListBlock__body_listOfProducts_prodCard_img">
-                <p class="productsListBlock__body_listOfProducts_prodCard_title
-                productsListBlock__body_listOfProducts_prodCard_content">
-                  Ski comfort <br> black/orange
-                </p>
-                <p class="productsListBlock__body_listOfProducts_prodCard_description
-                productsListBlock__body_listOfProducts_prodCard_content">
-                  Чорно-Помаранчеві Ортопедичні Устілки для Комфортного Гірськолижного Відпочинку
-                </p>
-  
-                <div class="productsListBlock__body_listOfProducts_prodCard_priceWrapper
-                productsListBlock__body_listOfProducts_prodCard_content">
-                  <p class="productsListBlock__body_listOfProducts_prodCard_price">
-                    220,79 <span class="gryvna">₴</span>
+              <a href="/pages\productPage.html" class="productsListBlock__body_listOfProducts_link">
+                <div class="productsListBlock__body_listOfProducts_prodCard prodcard--adRow">
+                  <div class="productsListBlock__body_listOfProducts_prodCard_imgWrapper">
+                    <img src="/allgoodsplug.e746b2bc.png" alt="product" class="productsListBlock__body_listOfProducts_prodCard_img">
+                  </div>
+                  <p class="productsListBlock__body_listOfProducts_prodCard_title
+                  productsListBlock__body_listOfProducts_prodCard_content">
+                    Ski comfort <br> black/orange
                   </p>
-                  <button class="button productsListBlock__body_listOfProducts_prodCard_button">
-                    <span class="button__text">Замовити</span>
-                    <img src="/go.141cf876.svg" alt="go">
-                  </button>
+                  <p class="productsListBlock__body_listOfProducts_prodCard_description
+                  productsListBlock__body_listOfProducts_prodCard_content">
+                    Чорно-Помаранчеві Ортопедичні Устілки для Комфортного Гірськолижного Відпочинку
+                  </p>
+    
+                  <div class="productsListBlock__body_listOfProducts_prodCard_priceWrapper
+                  productsListBlock__body_listOfProducts_prodCard_content">
+                    <p class="productsListBlock__body_listOfProducts_prodCard_price">
+                      220,79 <span class="gryvna">₴</span>
+                    </p>
+                    <button class="button productsListBlock__body_listOfProducts_prodCard_button">
+                      <span class="button__text">Замовити</span>
+                      <img src="/go.141cf876.svg" alt="go">
+                    </button>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
 
             <div class="productsListBlock__body_listOfProducts_rowWrapper">
-              <div class="productsListBlock__body_listOfProducts_prodCard">
-                <img src="/plugcatalog.9d36d47f.png" alt="product" class="productsListBlock__body_listOfProducts_prodCard_img">
-                <p class="productsListBlock__body_listOfProducts_prodCard_title
-                productsListBlock__body_listOfProducts_prodCard_content">
-                  Ski comfort <br> black/orange
-                </p>
-                <p class="productsListBlock__body_listOfProducts_prodCard_description
-                productsListBlock__body_listOfProducts_prodCard_content">
-                  Чорно-Помаранчеві Ортопедичні Устілки для Комфортного Гірськолижного Відпочинку
-                </p>
-  
-                <div class="productsListBlock__body_listOfProducts_prodCard_priceWrapper
-                productsListBlock__body_listOfProducts_prodCard_content">
-                  <p class="productsListBlock__body_listOfProducts_prodCard_price">
-                    220,79 <span class="gryvna">₴</span>
+              <a href="/pages\productPage.html" class="productsListBlock__body_listOfProducts_link">
+                <div class="productsListBlock__body_listOfProducts_prodCard">
+                  <div class="productsListBlock__body_listOfProducts_prodCard_imgWrapper">
+                    <img src="/allgoodsplug.e746b2bc.png" alt="product" class="productsListBlock__body_listOfProducts_prodCard_img">
+                  </div>
+                  <p class="productsListBlock__body_listOfProducts_prodCard_title
+                  productsListBlock__body_listOfProducts_prodCard_content">
+                    Ski comfort <br> black/orange
                   </p>
-                  <button class="button productsListBlock__body_listOfProducts_prodCard_button">
-                    <span class="button__text">Замовити</span>
-                    <img src="/go.141cf876.svg" alt="go">
-                  </button>
-                </div>
-              </div>
-  
-              <div class="productsListBlock__body_listOfProducts_prodCard">
-                <img src="/plugcatalog.9d36d47f.png" alt="product" class="productsListBlock__body_listOfProducts_prodCard_img">
-                <p class="productsListBlock__body_listOfProducts_prodCard_title
-                productsListBlock__body_listOfProducts_prodCard_content">
-                  Ski comfort <br> black/orange
-                </p>
-                <p class="productsListBlock__body_listOfProducts_prodCard_description
-                productsListBlock__body_listOfProducts_prodCard_content">
-                  Чорно-Помаранчеві Ортопедичні Устілки для Комфортного Гірськолижного Відпочинку
-                </p>
-  
-                <div class="productsListBlock__body_listOfProducts_prodCard_priceWrapper
-                productsListBlock__body_listOfProducts_prodCard_content">
-                  <p class="productsListBlock__body_listOfProducts_prodCard_price">
-                    220,79 <span class="gryvna">₴</span>
+                  <p class="productsListBlock__body_listOfProducts_prodCard_description
+                  productsListBlock__body_listOfProducts_prodCard_content">
+                    Чорно-Помаранчеві Ортопедичні Устілки для Комфортного Гірськолижного Відпочинку
                   </p>
-                  <button class="button productsListBlock__body_listOfProducts_prodCard_button">
-                    <span class="button__text">Замовити</span>
-                    <img src="/go.141cf876.svg" alt="go">
-                  </button>
+    
+                  <div class="productsListBlock__body_listOfProducts_prodCard_priceWrapper
+                  productsListBlock__body_listOfProducts_prodCard_content">
+                    <p class="productsListBlock__body_listOfProducts_prodCard_price">
+                      220,79 <span class="gryvna">₴</span>
+                    </p>
+                    <button class="button productsListBlock__body_listOfProducts_prodCard_button">
+                      <span class="button__text">Замовити</span>
+                      <img src="/go.141cf876.svg" alt="go">
+                    </button>
+                  </div>
                 </div>
-              </div>
+              </a>
   
-              <div class="productsListBlock__body_listOfProducts_prodCard">
-                <img src="/plugcatalog.9d36d47f.png" alt="product" class="productsListBlock__body_listOfProducts_prodCard_img">
-                <p class="productsListBlock__body_listOfProducts_prodCard_title
-                productsListBlock__body_listOfProducts_prodCard_content">
-                  Ski comfort <br> black/orange
-                </p>
-                <p class="productsListBlock__body_listOfProducts_prodCard_description
-                productsListBlock__body_listOfProducts_prodCard_content">
-                  Чорно-Помаранчеві Ортопедичні Устілки для Комфортного Гірськолижного Відпочинку
-                </p>
-  
-                <div class="productsListBlock__body_listOfProducts_prodCard_priceWrapper
-                productsListBlock__body_listOfProducts_prodCard_content">
-                  <p class="productsListBlock__body_listOfProducts_prodCard_price">
-                    220,79 <span class="gryvna">₴</span>
+              <a href="/pages\productPage.html" class="productsListBlock__body_listOfProducts_link">
+                <div class="productsListBlock__body_listOfProducts_prodCard">
+                  <div class="productsListBlock__body_listOfProducts_prodCard_imgWrapper">
+                    <img src="/allgoodsplug.e746b2bc.png" alt="product" class="productsListBlock__body_listOfProducts_prodCard_img">
+                  </div>
+                  <p class="productsListBlock__body_listOfProducts_prodCard_title
+                  productsListBlock__body_listOfProducts_prodCard_content">
+                    Ski comfort <br> black/orange
                   </p>
-                  <button class="button productsListBlock__body_listOfProducts_prodCard_button">
-                    <span class="button__text">Замовити</span>
-                    <img src="/go.141cf876.svg" alt="go">
-                  </button>
-                </div>
-              </div>
-  
-              <div class="productsListBlock__body_listOfProducts_prodCard">
-                <img src="/plugcatalog.9d36d47f.png" alt="product" class="productsListBlock__body_listOfProducts_prodCard_img">
-                <p class="productsListBlock__body_listOfProducts_prodCard_title
-                productsListBlock__body_listOfProducts_prodCard_content">
-                  Ski comfort <br> black/orange
-                </p>
-                <p class="productsListBlock__body_listOfProducts_prodCard_description
-                productsListBlock__body_listOfProducts_prodCard_content">
-                  Чорно-Помаранчеві Ортопедичні Устілки для Комфортного Гірськолижного Відпочинку
-                </p>
-  
-                <div class="productsListBlock__body_listOfProducts_prodCard_priceWrapper
-                productsListBlock__body_listOfProducts_prodCard_content">
-                  <p class="productsListBlock__body_listOfProducts_prodCard_price">
-                    220,79 <span class="gryvna">₴</span>
+                  <p class="productsListBlock__body_listOfProducts_prodCard_description
+                  productsListBlock__body_listOfProducts_prodCard_content">
+                    Чорно-Помаранчеві Ортопедичні Устілки для Комфортного Гірськолижного Відпочинку
                   </p>
-                  <button class="button productsListBlock__body_listOfProducts_prodCard_button">
-                    <span class="button__text">Замовити</span>
-                    <img src="/go.141cf876.svg" alt="go">
-                  </button>
+    
+                  <div class="productsListBlock__body_listOfProducts_prodCard_priceWrapper
+                  productsListBlock__body_listOfProducts_prodCard_content">
+                    <p class="productsListBlock__body_listOfProducts_prodCard_price">
+                      220,79 <span class="gryvna">₴</span>
+                    </p>
+                    <button class="button productsListBlock__body_listOfProducts_prodCard_button">
+                      <span class="button__text">Замовити</span>
+                      <img src="/go.141cf876.svg" alt="go">
+                    </button>
+                  </div>
                 </div>
-              </div>
+              </a>
+  
+              <a href="/pages\productPage.html" class="productsListBlock__body_listOfProducts_link">
+                <div class="productsListBlock__body_listOfProducts_prodCard">
+                  <div class="productsListBlock__body_listOfProducts_prodCard_imgWrapper">
+                    <img src="/allgoodsplug.e746b2bc.png" alt="product" class="productsListBlock__body_listOfProducts_prodCard_img">
+                  </div>
+                  <p class="productsListBlock__body_listOfProducts_prodCard_title
+                  productsListBlock__body_listOfProducts_prodCard_content">
+                    Ski comfort <br> black/orange
+                  </p>
+                  <p class="productsListBlock__body_listOfProducts_prodCard_description
+                  productsListBlock__body_listOfProducts_prodCard_content">
+                    Чорно-Помаранчеві Ортопедичні Устілки для Комфортного Гірськолижного Відпочинку
+                  </p>
+    
+                  <div class="productsListBlock__body_listOfProducts_prodCard_priceWrapper
+                  productsListBlock__body_listOfProducts_prodCard_content">
+                    <p class="productsListBlock__body_listOfProducts_prodCard_price">
+                      220,79 <span class="gryvna">₴</span>
+                    </p>
+                    <button class="button productsListBlock__body_listOfProducts_prodCard_button">
+                      <span class="button__text">Замовити</span>
+                      <img src="/go.141cf876.svg" alt="go">
+                    </button>
+                  </div>
+                </div>
+              </a>
+  
+              <a href="/pages\productPage.html" class="productsListBlock__body_listOfProducts_link">
+                <div class="productsListBlock__body_listOfProducts_prodCard">
+                  <div class="productsListBlock__body_listOfProducts_prodCard_imgWrapper">
+                    <img src="/allgoodsplug.e746b2bc.png" alt="product" class="productsListBlock__body_listOfProducts_prodCard_img">
+                  </div>
+                  <p class="productsListBlock__body_listOfProducts_prodCard_title
+                  productsListBlock__body_listOfProducts_prodCard_content">
+                    Ski comfort <br> black/orange
+                  </p>
+                  <p class="productsListBlock__body_listOfProducts_prodCard_description
+                  productsListBlock__body_listOfProducts_prodCard_content">
+                    Чорно-Помаранчеві Ортопедичні Устілки для Комфортного Гірськолижного Відпочинку
+                  </p>
+    
+                  <div class="productsListBlock__body_listOfProducts_prodCard_priceWrapper
+                  productsListBlock__body_listOfProducts_prodCard_content">
+                    <p class="productsListBlock__body_listOfProducts_prodCard_price">
+                      220,79 <span class="gryvna">₴</span>
+                    </p>
+                    <button class="button productsListBlock__body_listOfProducts_prodCard_button">
+                      <span class="button__text">Замовити</span>
+                      <img src="/go.141cf876.svg" alt="go">
+                    </button>
+                  </div>
+                </div>
+              </a>
             </div>
 
           </div>
@@ -874,6 +944,16 @@
           <!-- <img src="./images" alt="contacts" class="contacts_img--1200"> -->
         </div>
       </section>
+
+      <div class="fixedButtons">
+        <div class="fixedButtons__button">
+          <img src="/phoneButton.687be943.svg" alt="call-button">
+        </div>
+
+        <div class="fixedButtons__button">
+          <img src="/chat.f63d3283.svg" alt="chat-button">
+        </div>
+      </div>
     </main>
 
     <footer class="footer container">
@@ -928,7 +1008,9 @@
         <p class="footer__bottom_text">Політика конфіденційності <br> © 2007-теперішній час «Ортофіт», <br> Усі права захищено</p>
         <div class="footer__bottom_designer">
           <p class="footer__bottom_designer_remark">Дизайн та розробка:</p>
-          <img src="/kruglovDesign.4bede12e.png" alt="Kruglov Design" class="footer__bottom_designer_img">
+          <a href="https://kruglov.design/" target="_blank">
+            <img src="/kruglovDesign.4bede12e.png" alt="Kruglov Design" class="footer__bottom_designer_img">
+          </a>
         </div>
       </div>
     </footer>

@@ -3,6 +3,66 @@
   height: 750px;
 }
 
+@media screen and (max-width: 1500px) {
+  .aboutUs__hero {
+    height: 600px;
+  }
+
+  .hero__titleName--about {
+    font-size: 40px;
+  }
+
+  .hero__title_remark--about {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .aboutUs__hero {
+    height: 490px;
+  }
+
+  .hero__title--about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero__titleName--about {
+    width: 390px;
+  }
+
+  .hero__title_remark--about {
+    width: 390px;
+  }
+
+  .hero__title--about {
+    top: 70px;
+    right: 100px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .aboutUs__hero {
+    height: 400px;
+  }
+
+  .hero__titleName--about {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+
+  .hero__title_remark--about {
+    font-size: 17px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .aboutUs__hero {
+    height: 330px;
+  }
+}
+
 /* aboutProduct */
 
 .aboutProduct {
@@ -65,6 +125,12 @@
   margin-bottom: 30px;
 }
 
+@media screen and (max-width: 960px) {
+  .aboutProduct__information_wrapper {
+    flex-direction: column;
+  }
+}
+
 /* staff */
 
 .staff {
@@ -109,6 +175,20 @@
   height: 612px;
 }
 
+@media screen and (max-width: 1000px) {
+  .staff__persons_owner_photo {
+    width: 500px;
+  }
+
+  .staff__persons_owner_photo_bg {
+    width: 460px;
+    height: 460px;
+  }
+
+  .staff__persons_slider_listimg--second {
+    display: none;
+  }
+}
 
 .staff__title {
   margin: 0;
@@ -238,6 +318,16 @@
   border-bottom: 1px solid rgb(6, 115, 154, 0.3);
 }
 
+@media screen and (max-width: 930px) {
+  .ourPartners__titleBlock_wrapper {
+    width: 390px;
+  }
+
+  .ourPartners__titleBlock_head_text {
+    width: 370px;
+  }
+}
+
 .ourPartners__titleBlock_partners_partnerList {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -267,6 +357,50 @@
   font-weight: 400;
   font-size: 30px;
   width: 770px;
+}
+
+@media screen and (max-width: 950px) {
+  .ourPartners__titleBlock {
+    height: 1000px;
+  }
+
+  .ourPartners__prodBlock {
+    justify-content: start;
+    height: 430px;
+  }
+
+  .ourPartners__prodBlock_img {
+    width: 500px;
+  }
+
+  .ourPartners__prodBlock_text {
+    font-size: 22px;
+    width: 500px;
+  }
+
+  .ourPartners__titleBlock_partners_partnerList_card--last {
+    display: none;
+  }
+
+  .ourPartners__titleBlock_partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ourPartners__titleBlock_partners_partnerList {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .ourPartners__prodBlock {
+    width: 420px;
+  }
+
+  .ourPartners {
+    width: 420px;
+  }
 }
 
 /* production */
@@ -345,6 +479,12 @@
 
 .feedback__body_card--last {
   display: flex;
+}
+
+@media screen and (max-width: 950px) {
+  .production__videoBlock_video {
+    width: 520px;
+  }
 }
 
 /*# sourceMappingURL=/about.b87fe90b.css.map */

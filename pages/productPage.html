@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="/catalog.e853f0e9.css">
     <link rel="stylesheet" href="/productPage.85225035.css">
     <link rel="stylesheet" href="/allGoods.1e0051b8.css">
-    <title>Catalog</title>
-  <script src="/productPage.85225035.js"></script></head>
+    <link rel="icon" href="/icon.82bf699d.png">
+    <title>Ski comfort black/orange</title>
+  </head>
 
   <body>
     <header class="header">
@@ -19,8 +20,8 @@
         <a href="/pages\aboutPage.html" class="header__navbar_link">Про компанію</a>
         <a href="/pages\servicesCatalog.html" class="header__navbar_link">Послуги</a>
         <a href="/pages\catalog.html" class="header__navbar_link">Кадалог товарів</a>
-        <a href="/" class="header__navbar_link">Акції</a>
-        <a href="/" class="header__navbar_link">Контакти</a>
+        <a href="/pages\discountPage.html" class="header__navbar_link">Акції</a>
+        <a href="/pages\contacts.html" class="header__navbar_link">Контакти</a>
       </div>
 
       <div class="header__info">
@@ -72,15 +73,23 @@
     </header>
 
     <main class="main">
-      <section class="hero catalog_hero">
-        <div class="hero__title">
-          <h1 class="hero__titleName">Крокуйте <br> без болю</h1>
+      <section class="hero catalog_hero hero--prod">
+        <div class="hero__title hero__title--prod">
+          <h1 class="hero__titleName hero__titleName--prod">Крокуйте <br> без болю</h1>
 
-          <p class="hero__title_remark">
+          <p class="hero__title_remark hero__title_remark--prod">
             Як ортопедичні стелі полегшують ваши кожноденні кроки
           </p>
         </div>
       </section>
+
+      <section class="route">
+        <p class="route__base">Ортофіт</p>
+        <img src="/provide.e15c887a.svg" alt="route" class="route__provide">
+        <p class="route__base">Каталог товарів</p>
+        <img src="/provide.e15c887a.svg" alt="route" class="route__provide">
+        <p class="route__nextPage">Ski comfort black/orange</p>
+      </section> 
 
       <section class="statistic">
         <div class="statistic__callToAction">
@@ -279,7 +288,7 @@
           </a>
 
           <a href="/pages\productPage.html" class="productsListBlock__body_listOfProducts_link">
-            <div class="productsListBlock__body_listOfProducts_prodCard card--recomened">
+            <div class="productsListBlock__body_listOfProducts_prodCard card--recomened card--recomenedSecond">
               <img src="/plugcatalog.9d36d47f.png" alt="product" class="productsListBlock__body_listOfProducts_prodCard_img recomendCard--img">
               <p class="productsListBlock__body_listOfProducts_prodCard_title
               productsListBlock__body_listOfProducts_prodCard_content">
@@ -304,7 +313,7 @@
           </a>
 
           <a href="/pages\productPage.html" class="productsListBlock__body_listOfProducts_link">
-            <div class="productsListBlock__body_listOfProducts_prodCard card--recomened">
+            <div class="productsListBlock__body_listOfProducts_prodCard card--recomened card--recomenedThird">
               <img src="/plugcatalog.9d36d47f.png" alt="product" class="productsListBlock__body_listOfProducts_prodCard_img recomendCard--img">
               <p class="productsListBlock__body_listOfProducts_prodCard_title
               productsListBlock__body_listOfProducts_prodCard_content">
@@ -694,6 +703,16 @@
           <!-- <img src="./images" alt="contacts" class="contacts_img--1200"> -->
         </div>
       </section>
+
+      <div class="fixedButtons">
+        <div class="fixedButtons__button">
+          <img src="/phoneButton.687be943.svg" alt="call-button">
+        </div>
+
+        <div class="fixedButtons__button">
+          <img src="/chat.f63d3283.svg" alt="chat-button">
+        </div>
+      </div>
     </main>
 
     <footer class="footer container">
@@ -748,7 +767,9 @@
         <p class="footer__bottom_text">Політика конфіденційності <br> © 2007-теперішній час «Ортофіт», <br> Усі права захищено</p>
         <div class="footer__bottom_designer">
           <p class="footer__bottom_designer_remark">Дизайн та розробка:</p>
-          <img src="/kruglovDesign.4bede12e.png" alt="Kruglov Design" class="footer__bottom_designer_img">
+          <a href="https://kruglov.design/" target="_blank">
+            <img src="/kruglovDesign.4bede12e.png" alt="Kruglov Design" class="footer__bottom_designer_img">
+          </a>
         </div>
       </div>
     </footer>

@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/main.d2070829.css">
     <link rel="stylesheet" href="/about.b87fe90b.css">
+    <link rel="icon" href="/icon.82bf699d.png">
     <title>About</title>
-  <script src="/about.b87fe90b.js"></script><script src="/contacts.js"></script></head>
+  <script src="/about.b87fe90b.js"></script></head>
 
   <body>
     <header class="header">
@@ -71,13 +72,20 @@
 
     <main class="main">
       <section class="hero aboutUs__hero">
-        <div class="hero__title">
-          <h1 class="hero__titleName">Зроби крок у здорове майбутнє</h1>
+        <div class="hero__title hero__title--about hero__title-videoPage">
+          <p class="hero__title_pageName">Про компанію</p>
+          <h1 class="hero__titleName hero__titleName--about">Зроби крок у здорове майбутнє</h1>
 
-          <p class="hero__title_remark">
+          <p class="hero__title_remark hero__title_remark--about">
             Єдиний медичний центр з персональних устілок та здорової ходьби у м. Дніпро
           </p>
         </div>
+      </section>
+
+      <section class="route">
+        <p class="route__base">Ортофіт</p>
+        <img src="/provide.e15c887a.svg" alt="route" class="route__provide">
+        <p class="route__nextPage">Про компанію</p>
       </section>
 
       <section class="statistic">
@@ -336,11 +344,11 @@
             <div class="staff__persons_slider">
               <div class="staff__persons_slider_list">
                 <div class="staff__persons_slider_list_card">
-                  <img src="/mOrlova.08ecf2c2.png" alt="staff">
+                  <img src="/mOrlova.08ecf2c2.png" alt="staff" class="staff__persons_slider_listimg">
                 </div>
 
                 <div class="staff__persons_slider_list_card">
-                  <img src="/hTerova.eb6f2152.png" alt="staff">
+                  <img src="/hTerova.eb6f2152.png" alt="staff" class="staff__persons_slider_listimg--second">
                 </div>
               </div>
 
@@ -356,8 +364,6 @@
             </div>
           </div>
         </div>
-
-        <!-- <div class="staff__bg"></div> -->
       </section>
 
       <section class="ourPartners container">
@@ -390,10 +396,10 @@
                 <div class="ourPartners__titleBlock_partners_partnerList_card">
                   <img src="/sidas.388795f4.png" alt="sidas" class="ourPartners__titleBlock_partners_partnerList_card_img">
                 </div>
-                <div class="ourPartners__titleBlock_partners_partnerList_card">
+                <div class="ourPartners__titleBlock_partners_partnerList_card ourPartners__titleBlock_partners_partnerList_card--last">
                   <img src="/sidas.388795f4.png" alt="sidas" class="ourPartners__titleBlock_partners_partnerList_card_img">
                 </div>
-                <div class="ourPartners__titleBlock_partners_partnerList_card">
+                <div class="ourPartners__titleBlock_partners_partnerList_card ourPartners__titleBlock_partners_partnerList_card--last">
                   <img src="/sidas.388795f4.png" alt="sidas" class="ourPartners__titleBlock_partners_partnerList_card_img">
                 </div>
               </div>
@@ -404,7 +410,7 @@
         </div>
 
         <div class="ourPartners__prodBlock">
-          <img src="/ourPartnerssidas.89328292.png" alt="sidas">
+          <img src="/ourPartnerssidas.89328292.png" alt="sidas" class="ourPartners__prodBlock_img">
           <p class="ourPartners__prodBlock_text">
             Ми раді повідомити, що вже багато партнерів приєдналися до нашої спільноти, спільно працюючи для забезпечення вас найкращими ортопедичними рішеннями
           </p>
@@ -515,7 +521,7 @@
           <div class="license__slider_slideList">
             <div class="license__slider_slideList_wrapper">
               <img src="/license1.017eb6fc.png" alt="license">
-              <img src="/license2.b8e1562c.png" alt="license">
+              <img src="/license2.b8e1562c.png" alt="license" class="license__slider_slideList_wrapper_img--second">
             </div>
           </div>
 
@@ -533,7 +539,7 @@
 
       <section class="production container">
         <div class="production__videoBlock">
-          <img src="/productionVideoPlug.20fbba8e.png" alt="plug">
+          <img src="/productionVideoPlug.20fbba8e.png" alt="plug" class="production__videoBlock_video">
         </div>
 
         <div class="production__infoBlock">
@@ -828,9 +834,18 @@
           </div>
 
           <img src="/contactsBg.73aed38b.png" alt="contacts" class="contacts_img">
-          <!-- <img src="./images" alt="contacts" class="contacts_img--1200"> -->
         </div>
       </section>
+
+      <div class="fixedButtons">
+        <div class="fixedButtons__button">
+          <img src="/phoneButton.687be943.svg" alt="call-button">
+        </div>
+
+        <div class="fixedButtons__button">
+          <img src="/chat.f63d3283.svg" alt="chat-button">
+        </div>
+      </div>
     </main>
 
     <footer class="footer container">
@@ -885,7 +900,9 @@
         <p class="footer__bottom_text">Політика конфіденційності <br> © 2007-теперішній час «Ортофіт», <br> Усі права захищено</p>
         <div class="footer__bottom_designer">
           <p class="footer__bottom_designer_remark">Дизайн та розробка:</p>
-          <img src="/kruglovDesign.4bede12e.png" alt="Kruglov Design" class="footer__bottom_designer_img">
+          <a href="https://kruglov.design/" target="_blank">
+            <img src="/kruglovDesign.4bede12e.png" alt="Kruglov Design" class="footer__bottom_designer_img">
+          </a>
         </div>
       </div>
     </footer>

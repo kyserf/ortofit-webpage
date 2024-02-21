@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="/servicesCatalog.65cd2a3e.css">
     <link rel="stylesheet" href="/kinesiotapingService.03601664.css">
     <link rel="stylesheet" href="/serviceReady.4a127f0d.css">
-    <title>Catalog</title>
+    <link rel="icon" href="/icon.82bf699d.png">
+    <title>Готові рішеня</title>
   <script src="/serviceReady.4a127f0d.js"></script></head>
 
   <body>
@@ -18,8 +19,8 @@
         <a href="/pages\aboutPage.html" class="header__navbar_link">Про компанію</a>
         <a href="/pages\servicesCatalog.html" class="header__navbar_link">Послуги</a>
         <a href="/pages\catalog.html" class="header__navbar_link">Кадалог товарів</a>
-        <a href="/" class="header__navbar_link">Акції</a>
-        <a href="/" class="header__navbar_link">Контакти</a>
+        <a href="/pages\discountPage.html" class="header__navbar_link">Акції</a>
+        <a href="/pages\contacts.html" class="header__navbar_link">Контакти</a>
       </div>
 
       <div class="header__info">
@@ -31,11 +32,17 @@
         </div>
 
         <div class="header__info_adress">
-          <img src="/map.e6cebe79.svg" alt="map">
-
-          <div class="header__info_adress_wrapper">
-            <a href="/" class="header__info_adress_link">м.Дніпро</a>
-            <a href="/" class="header__info_adress_link">вул.Центральна 6-2б</a>
+          <div class="header__info_adress">
+            <a target="_blank" href="https://www.google.com/maps/place/%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0,+6,+2%D0%B1,+%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE,+%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+49000/data=!4m2!3m1!1s0x40dbe2dd602611c3:0xa435da45904f0c1a?sa=X&ved=2ahUKEwiZqebQl7CEAxWCQvEDHR4OD7YQ8gF6BAgcEAA" class="header__info_adress_link">
+              <img src="/map.e6cebe79.svg" alt="map">
+            </a>
+  
+            <a target="_blank" href="https://www.google.com/maps/place/%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0,+6,+2%D0%B1,+%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE,+%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+49000/data=!4m2!3m1!1s0x40dbe2dd602611c3:0xa435da45904f0c1a?sa=X&ved=2ahUKEwiZqebQl7CEAxWCQvEDHR4OD7YQ8gF6BAgcEAA" class="header__info_adress_wrapper_links">
+              <div class="header__info_adress_wrapper">
+                <span class="header__info_adress_link">м.Дніпро</span>
+                <span class="header__info_adress_link">вул.Центральна 6-2б</span>
+              </div>
+            </a>
           </div>
         </div>
 
@@ -65,6 +72,7 @@
     <main class="main">
       <section class="hero services_hero">
         <div class="hero__title">
+          <p class="hero__title_pageName">Готові рішення</p>
           <h1 class="hero__titleName services_hero_titlename">Широкий спектр послуг</h1>
 
           <p class="hero__title_remark">
@@ -72,6 +80,14 @@
           </p>
         </div>
       </section>
+
+      <section class="route">
+        <p class="route__base">Ортофіт</p>
+        <img src="/provide.e15c887a.svg" alt="route" class="route__provide">
+        <p class="route__base">Послуги</p>
+        <img src="/provide.e15c887a.svg" alt="route" class="route__provide">
+        <p class="route__nextPage">Готові рішення</p>
+      </section> 
 
       <section class="statistic">
         <div class="statistic__callToAction">
@@ -758,6 +774,16 @@
 
         </div>
       </section>
+
+      <div class="fixedButtons">
+        <div class="fixedButtons__button">
+          <img src="/phoneButton.687be943.svg" alt="call-button">
+        </div>
+
+        <div class="fixedButtons__button">
+          <img src="/chat.f63d3283.svg" alt="chat-button">
+        </div>
+      </div>
     </main>
 
     <footer class="footer container">
@@ -812,7 +838,9 @@
         <p class="footer__bottom_text">Політика конфіденційності <br> © 2007-теперішній час «Ортофіт», <br> Усі права захищено</p>
         <div class="footer__bottom_designer">
           <p class="footer__bottom_designer_remark">Дизайн та розробка:</p>
-          <img src="/kruglovDesign.4bede12e.png" alt="Kruglov Design" class="footer__bottom_designer_img">
+          <a href="https://kruglov.design/" target="_blank">
+            <img src="/kruglovDesign.4bede12e.png" alt="Kruglov Design" class="footer__bottom_designer_img">
+          </a>
         </div>
       </div>
     </footer>

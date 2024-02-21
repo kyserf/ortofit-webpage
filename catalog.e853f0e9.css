@@ -3,6 +3,18 @@
   height: 750px;
 }
 
+@media screen and (max-width: 1488px) {
+  .catalog_hero {
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  .catalog_hero {
+    height: 500px;
+  }
+}
+
 /* catalogSection */
 
 .catalogSection {
