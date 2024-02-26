@@ -64,7 +64,7 @@
           Пройти тест стопи
         </button>
 
-        <button class="header__button">
+        <button class="header__button popupButton">
           <img src="/leg.d99377b7.svg" alt="button" class="header__buttonImage">
         </button>
       </div>
@@ -257,7 +257,7 @@
           </p>
 
           <div class="mainProd__leftBlock_textBlock">
-            <img src="/podiatech.6d289ae9.png" alt="podiatech">
+            <img src="/podiatech.6d289ae9.png" alt="podiatech" class="mainProd__leftBlock_img">
 
             <div class="mainProd__leftBlock_textBlock_text">
               <p class="mainProd__leftBlock_title">Podiatech</p>
@@ -846,6 +846,38 @@
           <img src="/chat.f63d3283.svg" alt="chat-button">
         </div>
       </div>
+
+      <div class="popup" id="popup">
+        <div class="popup__content_wrapper">
+          <div class="popup__content">
+            <button class="popupCloseButton" id="popupCloseButton">
+              <img src="/close.4440cd52.svg" alt="close">
+            </button>
+  
+            <img src="/popup.de4cdc24.png" alt="popup" class="popup__content_img">
+  
+            <div class="popup__content_formWrapper">
+              <p class="popup__content_formWrapper_title">
+                Залиште ваш номер телефону і наш менеджер зв’яжеться з вами найближчим часом
+              </p>
+
+              <form action="post" class="form promotion__form popup_form">
+                <input type="text" placeholder="Ім'я" class="appointment__card_input popup_input">
+                <input type="text" placeholder="Телефон" class="appointment__card_input popup_input">
+                <input type="text" placeholder="Текст повідомлення (не обов'язково)" class="appointment__card_input popup_input">
+                <label for="" class="form_checkbox popup_checkBox">
+                  <input type="checkbox">
+                  Підтверджуючи, ви погоджуєтесь з <strong>політикою конфіденсальності</strong>
+                </label>
+
+                <div class="fullscreenButtonWrapper">
+                  <button class="appointment_formButton button fullscreenButton">Отримати консультацію</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer class="footer container">
@@ -907,6 +939,6 @@
       </div>
     </footer>
 
-    <script src="/about.be4ea917.js" defer=""></script>
+    <script src="/script.75da7f30.js" defer=""></script>
   </body>
 </html>

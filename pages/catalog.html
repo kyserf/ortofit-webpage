@@ -584,6 +584,38 @@
           <img src="../images/chat.svg" alt="chat-button">
         </div>
       </div>
+
+      <div class="popup" id="popup">
+        <div class="popup__content_wrapper">
+          <div class="popup__content">
+            <button class="popupCloseButton" id="popupCloseButton">
+              <img src="../images/close.svg" alt="close">
+            </button>
+  
+            <img src="../images/popup.png" alt="popup" class="popup__content_img">
+  
+            <div class="popup__content_formWrapper">
+              <p class="popup__content_formWrapper_title">
+                Залиште ваш номер телефону і наш менеджер зв’яжеться з вами найближчим часом
+              </p>
+
+              <form action="post" class="form promotion__form popup_form">
+                <input type="text" placeholder="Ім'я" class="appointment__card_input popup_input">
+                <input type="text" placeholder="Телефон" class="appointment__card_input popup_input">
+                <input type="text" placeholder="Текст повідомлення (не обов'язково)" class="appointment__card_input popup_input">
+                <label for="" class="form_checkbox popup_checkBox">
+                  <input type="checkbox">
+                  Підтверджуючи, ви погоджуєтесь з <strong>політикою конфіденсальності</strong>
+                </label>
+
+                <div class="fullscreenButtonWrapper">
+                  <button class="appointment_formButton button fullscreenButton">Отримати консультацію</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer class="footer container">

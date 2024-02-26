@@ -49,23 +49,22 @@ if (window.innerWidth > 1570) {
   feedbackCard.style.display = 'none'
 }
 
-var popupButtons = document.querySelectorAll('.popupButton');
+const popupButtons = document.querySelectorAll('.popupButton');
+
+console.log(popupButtons);
 
 popupButtons.forEach(function(button) {
-    button.addEventListener('click', showPopup);
+  button.addEventListener('click', showPopup);
 });
 
 document.getElementById('popupCloseButton').addEventListener('click', closePopup);
 
 function showPopup() {
-    document.getElementById('popup').style.display = 'flex';
-    document.body.style.overflow = 'hidden';
+  document.getElementById('popup').style.display = 'flex';
+  document.body.style.overflow = 'hidden';
 }
 
 function closePopup() {
-    document.getElementById('popup').style.display = 'none';
-    document.body.style.overflow = 'auto';
+  document.getElementById('popup').style.display = 'none';
+  document.body.style.overflow = 'auto';
 }
-
-
-
