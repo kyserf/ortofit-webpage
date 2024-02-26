@@ -123,7 +123,6 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 // vision ---------------------------------------
 var navbar = document.querySelector('.header__navbar');
 var testButton = document.querySelector('.header__button_test');
-var serviceCard = document.querySelector('.services__slider_card--last');
 var videoBlockButton = document.querySelector('.learnMoreButton--videoBlock');
 var feedbackCard = document.querySelector('.feedback__body_card--last');
 window.addEventListener('resize', function () {
@@ -133,11 +132,6 @@ window.addEventListener('resize', function () {
   } else {
     navbar.style.display = 'none';
     testButton.style.display = 'block';
-  }
-  if (window.innerWidth > 1700) {
-    serviceCard.style.display = 'block';
-  } else {
-    serviceCard.style.display = 'none';
   }
   if (window.innerWidth > 1430) {
     videoBlockButton.style.display = 'block';
@@ -157,11 +151,6 @@ if (window.innerWidth > 1600) {
   navbar.style.display = 'none';
   testButton.style.display = 'block';
 }
-if (window.innerWidth > 1700) {
-  serviceCard.style.display = 'block';
-} else {
-  serviceCard.style.display = 'none';
-}
 if (window.innerWidth > 1430) {
   videoBlockButton.style.display = 'block';
 } else {
@@ -171,6 +160,19 @@ if (window.innerWidth > 1570) {
   feedbackCard.style.display = 'flex';
 } else {
   feedbackCard.style.display = 'none';
+}
+var popupButtons = document.querySelectorAll('.popupButton');
+popupButtons.forEach(function (button) {
+  button.addEventListener('click', showPopup);
+});
+document.getElementById('popupCloseButton').addEventListener('click', closePopup);
+function showPopup() {
+  document.getElementById('popup').style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+}
+function closePopup() {
+  document.getElementById('popup').style.display = 'none';
+  document.body.style.overflow = 'auto';
 }
 },{}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -197,7 +199,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57558" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61496" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

@@ -4,7 +4,6 @@
 
 let navbar = document.querySelector('.header__navbar');
 let testButton = document.querySelector('.header__button_test');
-let serviceCard = document.querySelector('.services__slider_card--last');
 let videoBlockButton = document.querySelector('.learnMoreButton--videoBlock');
 let feedbackCard = document.querySelector('.feedback__body_card--last');
 
@@ -15,12 +14,6 @@ window.addEventListener('resize', function() {
   } else {
     navbar.style.display = 'none';
     testButton.style.display = 'block';
-  }
-
-  if (window.innerWidth > 1700) {
-    serviceCard.style.display = 'block';
-  } else {
-    serviceCard.style.display = 'none'
   }
 
   if (window.innerWidth > 1430) {
@@ -44,12 +37,6 @@ if (window.innerWidth > 1600) {
   testButton.style.display = 'block';
 }
 
-if (window.innerWidth > 1700) {
-  serviceCard.style.display = 'block';
-} else {
-  serviceCard.style.display = 'none'
-}
-
 if (window.innerWidth > 1430) {
   videoBlockButton.style.display = 'block';
 } else {
@@ -61,3 +48,24 @@ if (window.innerWidth > 1570) {
 } else {
   feedbackCard.style.display = 'none'
 }
+
+var popupButtons = document.querySelectorAll('.popupButton');
+
+popupButtons.forEach(function(button) {
+    button.addEventListener('click', showPopup);
+});
+
+document.getElementById('popupCloseButton').addEventListener('click', closePopup);
+
+function showPopup() {
+    document.getElementById('popup').style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+}
+
+function closePopup() {
+    document.getElementById('popup').style.display = 'none';
+    document.body.style.overflow = 'auto';
+}
+
+
+

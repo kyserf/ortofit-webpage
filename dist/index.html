@@ -33,7 +33,7 @@
 
         <div class="header__info_adress">
           <a target="_blank" href="https://www.google.com/maps/place/%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0,+6,+2%D0%B1,+%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE,+%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+49000/data=!4m2!3m1!1s0x40dbe2dd602611c3:0xa435da45904f0c1a?sa=X&ved=2ahUKEwiZqebQl7CEAxWCQvEDHR4OD7YQ8gF6BAgcEAA" class="header__info_adress_link">
-            <img src="/map.e6cebe79.svg" alt="map">
+            <img src="/map.e6cebe79.svg" alt="map" class="header__info_adress_link_img">
           </a>
 
           <a target="_blank" href="https://www.google.com/maps/place/%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0,+6,+2%D0%B1,+%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE,+%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+49000/data=!4m2!3m1!1s0x40dbe2dd602611c3:0xa435da45904f0c1a?sa=X&ved=2ahUKEwiZqebQl7CEAxWCQvEDHR4OD7YQ8gF6BAgcEAA" class="header__info_adress_wrapper_links">
@@ -47,14 +47,14 @@
 
         <div class="header__info_number">
           <div class="header__info_number_wrapper">
-            <img src="/phone.b979c70b.svg" alt="phone">
+            <img src="/phone.b979c70b.svg" alt="phone" class="header__info_number_img">
             <a href="tel:+380960042533" target="_blank" class="header__info_number_link">
               +38 (096) 004 25 33
             </a>
           </div>
 
           <div class="header__info_number_wrapper">
-            <img src="/phone.b979c70b.svg" alt="phone">
+            <img src="/phone.b979c70b.svg" alt="phone" class="header__info_number_img">
             <a href="tel:+380505058199" target="_blank" class="header__info_number_link">
               +38 (050) 505 81 99
             </a>
@@ -65,7 +65,7 @@
           Пройти тест стопи
         </button>
 
-        <button class="header__button">
+        <button class="header__button popupButton">
           <img src="/leg.d99377b7.svg" alt="button" class="header__buttonImage">
         </button>
       </div>
@@ -81,12 +81,12 @@
           </p>
 
           <div class="hero__buttons">
-            <button class="hero__buttons_register">
+            <button class="hero__buttons_register popupButton">
               <span>Записатися на прийом</span>
               <img src="/go.141cf876.svg" alt="go" class="hero__buttons_register_arrow">
             </button>
-            <a href="/pages\aboutPage.html" class="hero__buttons_lernmore_link">
-              <button class="hero__buttons_lernmore">Дізнатися більше</button>
+            <a href="/pages\aboutPage.html" class="hero__buttons_lernmore_link learnMoreLink">
+              <button class="learnMoreButton hero__buttons_lernmore">Дізнатися більше</button>
             </a>
           </div>
         </div>
@@ -230,7 +230,9 @@
 
       <section class="services">
         <div class="services__headWrapper">
-          <p class="services__title">Послуги</p>
+          <div class="services__headWrapper_titleWrapper">
+            <p class="services__title">Послуги</p>
+          </div>
           <p class="services__headTitle">Що ми робимо Що ми робимо</p>
           <a href="/pages\servicesCatalog.html" class="insideLink buttonLink">
             <button class="services__allButton">Усі послуги</button>
@@ -248,7 +250,7 @@
                 Наша клініка обладнана передовими технологіями для надання сучасних і ефективних медичних послуг
               </p>
               <a href="/pages\kinesiotapingService.html">
-                <button class="services__slider_card_button">Дізнатися більше</button>
+                <button class="services__slider_card_button learnMoreButton">Дізнатися більше</button>
               </a>
             </div>
             <div class="services__slider_card services__slider_card--second">
@@ -260,7 +262,7 @@
                 Основою лікування є розвиток дитини, треба створити умови для правильного формування його опорно-рухового апарату
               </p>
               <a href="/pages\kidsCategory.html">
-                <button class="services__slider_card_button">Дізнатися більше</button>
+                <button class="services__slider_card_button learnMoreButton">Дізнатися більше</button>
               </a>
             </div>
             <div class="services__slider_card services__slider_card--last">
@@ -271,7 +273,7 @@
               <p class="services__slider_card_text">
                 Плоскостопію сприяють зміни в організмі під час перехідного віку, вагітності чи старінні
               </p>
-              <button class="services__slider_card_button">Дізнатися більше</button>
+              <button class="services__slider_card_button learnMoreButton">Дізнатися більше</button>
             </div>
 
             <div class="services__slider_buttons">
@@ -288,10 +290,12 @@
           <img src="/Rectangle.ed3816cf.png" alt="podiatech" class="services__sideImg">
         </div>
 
-        <button class="services__register">
-          <span class="services__register_text">Записатися на прийом</span>
-          <img src="/go.141cf876.svg" alt="register">
-        </button>
+        <div class="fullscreenButtonWrapper">
+          <button class="services__register fullscreenButton popupButton">
+            <span class="services__register_text">Записатися на прийом</span>
+            <img src="/go.141cf876.svg" alt="register">
+          </button>
+        </div>
       </section>
 
       <section class="about">
@@ -339,10 +343,12 @@
       </section>
 
       <section class="container">
-        <button class="services__register button_register">
-          <span class="services__register_text">Записатися на прийом</span>
-          <img src="/go.141cf876.svg" alt="register">
-        </button>
+        <div class="fullscreenButtonWrapper">
+          <button class="services__register button_register fullscreenButton popupButton">
+            <span class="services__register_text">Записатися на прийом</span>
+            <img src="/go.141cf876.svg" alt="register">
+          </button>
+        </div>
       </section>
 
       <section class="videoBlock container">
@@ -353,7 +359,7 @@
               Наша клініка обладнана передовими технологіями для надання сучасних і ефективних медичних послуг
             </p>
 
-            <a href="/pages\aboutPage.html">
+            <a href="/pages\aboutPage.html" class="learnMoreLink">
               <button class="learnMoreButton learnMoreButton--videoBlock">Дізнатися більше</button>
             </a>
           </div>
@@ -366,10 +372,10 @@
             </p>
 
             <div class="videoBlock__textBlock_bottom_buttonWrapper">
-              <a href="/pages\aboutPage.html">
+              <a href="/pages\aboutPage.html" class="learnMoreLink">
                 <button class="learnMoreButton">Дізнатися більше</button>
               </a>
-              <button class="button videoBlock__textBlock_bottom_buttonWrapper_button">
+              <button class="button videoBlock__textBlock_bottom_buttonWrapper_button popupButton">
                 Проконсультуватися
               </button>
             </div>
@@ -383,7 +389,7 @@
 
       <section class="stages container">
         <div class="stages__leftBlock">
-          <div>
+          <div class="stages__leftBlock_wrapper">
             <div class="stages__leftBlock_head">
               <p class="stages__leftBlock_head_title">
                 Ми також працюємо <br> віддалено по всій країні
@@ -498,7 +504,7 @@
                 </p>
   
                 <div class="insolesTypes__cardList_card_content_buttons">
-                  <button class="insolesTypes__cardList_card_content_buttons_button">
+                  <button class="insolesTypes__cardList_card_content_buttons_button popupButton">
                     <span>Записатися на прийом</span>
                     <img src="/go.141cf876.svg" alt="go" class="button_arrow">
                   </button>
@@ -522,7 +528,7 @@
                 </p>
 
                 <div class="insolesTypes__cardList_card_content_buttons">
-                  <button class="insolesTypes__cardList_card_content_buttons_button">
+                  <button class="insolesTypes__cardList_card_content_buttons_button popupButton">
                     <span>Записатися на прийом</span>
                     <img src="/go.141cf876.svg" alt="go" class="button_arrow">
                   </button>
@@ -546,7 +552,7 @@
                 </p>
 
                 <div class="insolesTypes__cardList_card_content_buttons">
-                  <button class="insolesTypes__cardList_card_content_buttons_button">
+                  <button class="insolesTypes__cardList_card_content_buttons_button popupButton">
                     <span>Записатися на прийом</span>
                     <img src="/go.141cf876.svg" alt="go" class="button_arrow">
                   </button>
@@ -560,10 +566,12 @@
           </div>
 
           <a href="/pages\catalog.html" class="link_catalog">
-            <button class="button insolesTypes__cardList_button">
-              Перейти в каталог товарів
-              <img src="/go.141cf876.svg" alt="go">
-            </button>
+            <div class="fullscreenButtonWrapper">
+              <button class="button insolesTypes__cardList_button">
+                Перейти в каталог товарів
+                <img src="/go.141cf876.svg" alt="go">
+              </button>
+            </div>
           </a>
         </div>
       </section>
@@ -597,9 +605,12 @@
                 <input type="text" placeholder="Телефон" class="appointment__card_input">
                 <label for="" class="form_checkbox">
                   <input type="checkbox">
-                  Підтверджуючи, ви погоджуєтесь з політикою конфіденсальності
+                  Підтверджуючи, ви погоджуєтесь з <strong>політикою конфіденсальності</strong>
                 </label>
-                <button class="button">Замовити зворотній зв’язок</button>
+                
+                <div class="fullscreenButtonWrapper">
+                  <button class="appointment_formButton button fullscreenButton">Замовити зворотній зв’язок</button>
+                </div>
               </form>
             </div>
           </div>
@@ -611,8 +622,12 @@
         <div class="license__slider">
           <div class="license__slider_slideList">
             <div class="license__slider_slideList_wrapper">
-              <img src="/license1.017eb6fc.png" alt="license" class="license__slider_slideList_wrapper_img">
-              <img src="/license2.b8e1562c.png" alt="license" class="license__slider_slideList_wrapper_img license__slider_slideList_wrapper_img--second">
+              <div class="license__slider_slideList_imgWrapper">
+                <img src="/license1.017eb6fc.png" alt="license" class="license__slider_slideList_wrapper_img">
+              </div>
+              <div class="license__slider_slideList_imgWrapper">
+                <img src="/license2.b8e1562c.png" alt="license" class="license__slider_slideList_wrapper_img license__slider_slideList_wrapper_img--second">
+              </div>
             </div>
           </div>
 
@@ -644,9 +659,12 @@
                 <input type="text" placeholder="Телефон" class="appointment__card_input">
                 <label for="" class="form_checkbox">
                   <input type="checkbox">
-                  Підтверджуючи, ви погоджуєтесь з політикою конфіденсальності
+                  Підтверджуючи, ви погоджуєтесь з <strong>політикою конфіденсальності</strong>
                 </label>
-                <button class="button">Замовити зворотній зв’язок</button>
+
+                <div class="fullscreenButtonWrapper">
+                  <button class="appointment_formButton button fullscreenButton">Замовити зворотній зв’язок</button>
+                </div>
               </form>
             </div>
           </div>
@@ -852,13 +870,13 @@
 
                   <div class="contacts__contactBlock_top_adress_number">
                     <div class="contacts__contactBlock_top_adress_number_phone">
-                      <img src="/Phone.69dcb7aa.png" alt="phone" class="contacts__contactBlock_top_adress_number_phone_img">
+                      <img src="/Phonecont.c8c3bacb.svg" alt="phone" class="contacts__contactBlock_top_adress_number_phone_img">
                       <p class="contacts__contactBlock_top_adress_number_phone_text">
                         <a href="tel:+38 (096) 004 25 33" class="contacts__link">+38 (096) 004 25 33</a>
                       </p>
                     </div>
                     <div class="contacts__contactBlock_top_adress_number_phone">
-                      <img src="/Phone.69dcb7aa.png" alt="phone" class="contacts__contactBlock_top_adress_number_phone_img">
+                      <img src="/Phonecont.c8c3bacb.svg" alt="phone" class="contacts__contactBlock_top_adress_number_phone_img">
                       <p class="contacts__contactBlock_top_adress_number_phone_text">
                         <a href="tel:+38 (050) 505 81 99" class="contacts__link">+38 (050) 505 81 99</a>
                       </p>
@@ -875,9 +893,12 @@
                   <input type="text" placeholder="Телефон" class="appointment__card_input">
                   <label for="" class="form_checkbox">
                     <input type="checkbox">
-                    Підтверджуючи, ви погоджуєтесь з політикою конфіденсальності
+                    Підтверджуючи, ви погоджуєтесь з <strong>політикою конфіденсальності</strong>
                   </label>
-                  <button class="button">Замовити зворотній зв’язок</button>
+
+                  <div class="fullscreenButtonWrapper">
+                    <button class="appointment_formButton button fullscreenButton">Замовити зворотній зв’язок</button>
+                  </div>
                 </form>
               </div>
             </div>
@@ -894,6 +915,38 @@
 
         <div class="fixedButtons__button">
           <img src="/chat.f63d3283.svg" alt="chat-button">
+        </div>
+      </div>
+
+      <div class="popup" id="popup">
+        <div class="popup__content_wrapper">
+          <div class="popup__content">
+            <button class="popupCloseButton" id="popupCloseButton">
+              <img src="/close.4440cd52.svg" alt="close">
+            </button>
+  
+            <img src="/popup.de4cdc24.png" alt="popup" class="popup__content_img">
+  
+            <div class="popup__content_formWrapper">
+              <p class="popup__content_formWrapper_title">
+                Залиште ваш номер телефону і наш менеджер зв’яжеться з вами найближчим часом
+              </p>
+
+              <form action="post" class="form promotion__form popup_form">
+                <input type="text" placeholder="Ім'я" class="appointment__card_input popup_input">
+                <input type="text" placeholder="Телефон" class="appointment__card_input popup_input">
+                <input type="text" placeholder="Текст повідомлення (не обов'язково)" class="appointment__card_input popup_input">
+                <label for="" class="form_checkbox popup_checkBox">
+                  <input type="checkbox">
+                  Підтверджуючи, ви погоджуєтесь з <strong>політикою конфіденсальності</strong>
+                </label>
+
+                <div class="fullscreenButtonWrapper">
+                  <button class="appointment_formButton button fullscreenButton">Отримати консультацію</button>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </main>
