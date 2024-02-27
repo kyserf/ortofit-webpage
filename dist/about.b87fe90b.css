@@ -336,6 +336,7 @@
 .ourPartners__titleBlock_partners_partnerList {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 10px;
 
   margin-bottom: 40px;
 }
@@ -442,6 +443,13 @@
 
 .production__infoBlock_card {
   height: 367px;
+  border-radius: 40px;
+
+  background-color: #fff;
+}
+
+.production__infoBlock_card_wrapper {
+  padding: 30px;
 }
 
 @media screen and (max-width: 1820px) {

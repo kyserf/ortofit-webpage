@@ -1120,7 +1120,7 @@ div .popup_form {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199px) {
   .statistic__wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1133,7 +1133,7 @@ div .popup_form {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199px) {
   .statistic {
     height: 420px;
   }
@@ -3228,6 +3228,7 @@ div .popup_form {
   width: 930px;
   height: 754px;
   border-radius: 40px;
+  padding: 20px;
 
   color: #00719b;
   background-color: #fff;
@@ -3461,6 +3462,8 @@ div .popup_form {
 
 @media screen and (max-width: 1450px) {
   .insolesTypes__block {
+    display: flex;
+    justify-content: end;
     height: auto;
   }
 }
