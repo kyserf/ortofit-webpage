@@ -121,7 +121,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\images\\heroAboutBg.png":[["heroAboutBg.2d5ccf76.png","images/heroAboutBg.png"],"images/heroAboutBg.png"],"./..\\images\\staffBg.svg":[["staffBg.d8e3ae19.svg","images/staffBg.svg"],"images/staffBg.svg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./..\\images\\heroAboutBg.png":[["heroAboutBg.2d5ccf76.png","images/heroAboutBg.png"],"images/heroAboutBg.png"],"./..\\images\\staffBg.svg":[["staffBg.d8e3ae19.svg","images/staffBg.svg"],"images/staffBg.svg"],"./..\\images\\starfill.svg":[["starfill.8e19151e.svg","images/starfill.svg"],"images/starfill.svg"],"./..\\images\\starempt.svg":[["starempt.9c9a818e.svg","images/starempt.svg"],"images/starempt.svg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -146,7 +146,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57602" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56098" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

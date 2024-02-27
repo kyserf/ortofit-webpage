@@ -124,7 +124,8 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 var navbar = document.querySelector('.header__navbar');
 var testButton = document.querySelector('.header__button_test');
 var videoBlockButton = document.querySelector('.learnMoreButton--videoBlock');
-var feedbackCard = document.querySelector('.feedback__body_card--last');
+// let feedbackCard = document.querySelector('.feedback__body_card--last');
+
 window.addEventListener('resize', function () {
   if (window.innerWidth > 1600) {
     navbar.style.display = 'flex';
@@ -156,11 +157,6 @@ if (window.innerWidth > 1430) {
 } else {
   videoBlockButton.style.display = 'none';
 }
-if (window.innerWidth > 1570) {
-  feedbackCard.style.display = 'flex';
-} else {
-  feedbackCard.style.display = 'none';
-}
 var popupButtons = document.querySelectorAll('.popupButton');
 console.log(popupButtons);
 popupButtons.forEach(function (button) {
@@ -175,6 +171,35 @@ function closePopup() {
   document.getElementById('popup').style.display = 'none';
   document.body.style.overflow = 'auto';
 }
+document.addEventListener('DOMContentLoaded', function () {
+  var searchIcon = document.querySelector('.header__info_search_icon');
+  var searchInputWrapper = document.querySelector('.header__info_search_input_wrapper');
+  searchIcon.addEventListener('click', function () {
+    searchInputWrapper.classList.toggle('active');
+    if (searchInputWrapper.classList.contains('active')) {
+      searchInputWrapper.focus();
+    }
+  });
+});
+document.addEventListener('DOMContentLoaded', function () {
+  var toggleButton = document.getElementById('toggleButton');
+  var closeButton = document.getElementById('closeButton');
+  var heroRemarkFull = document.querySelector('.hero__remark_full');
+  toggleButton.addEventListener('click', function () {
+    heroRemarkFull.style.display = heroRemarkFull.style.display === 'none' || heroRemarkFull.style.display === '' ? 'block' : 'none';
+
+    // Оновлення кнопок в залежності від стану hero__remark_full
+    toggleButton.style.display = heroRemarkFull.style.display === 'block' ? 'none' : 'flex';
+    closeButton.style.display = heroRemarkFull.style.display === 'block' ? 'flex' : 'none';
+  });
+  closeButton.addEventListener('click', function () {
+    heroRemarkFull.style.display = 'none';
+
+    // Оновлення кнопок при закритті
+    toggleButton.style.display = 'flex';
+    closeButton.style.display = 'none';
+  });
+});
 },{}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -200,7 +225,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57602" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56098" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
