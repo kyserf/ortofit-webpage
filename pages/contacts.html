@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/catalog.e853f0e9.css">
     <link rel="stylesheet" href="/productPage.85225035.css">
     <link rel="stylesheet" href="/contacts.085939e5.css">
+    <link rel="stylesheet" href="/servicesCatalog.65cd2a3e.css">
     <link rel="icon" href="/icon.82bf699d.png">
     <title>Контакти</title>
   </head>
@@ -74,20 +75,14 @@
 
     <main class="main">
       <section class="hero contacts_hero">
-        <div class="hero__title">
-          <p class="hero__title_pageName">Контакти</p>
-          <h1 class="hero__titleName contacts_hero_title">Легше, ніж <br>коли небудь</h1>
+        <div class="hero__title hero__title--servicePage">
+          <p class="hero__title_pageName hero__title_pageName--servicePage">Контакти</p>
+          <h1 class="hero__titleName services_hero_titlename">Легше, ніж <br>коли небудь</h1>
 
-          <p class="hero__title_remark contacts_hero_title">
+          <p class="hero__title_remark hero__title_remark--servicePage">
             Знайдіть ідеальні ортопедичні стелі для своїх ніг
           </p>
         </div>
-      </section>
-
-      <section class="route">
-        <p class="route__base">Ортофіт</p>
-        <img src="/provide.e15c887a.svg" alt="route" class="route__provide">
-        <p class="route__nextPage">Контакти</p>
       </section>
 
       <section class="statistic">
@@ -117,6 +112,12 @@
             <p class="statistic__block_text">задоволених клієнтів</p>
           </div>
         </div>
+      </section>
+
+      <section class="route">
+        <p class="route__base">Ортофіт</p>
+        <img src="/provide.e15c887a.svg" alt="route" class="route__provide">
+        <p class="route__nextPage">Контакти</p>
       </section>
 
       <section class="contacts container">
@@ -257,7 +258,7 @@
           </p>
 
           <div class="mainProd__leftBlock_textBlock">
-            <img src="/podiatech.6d289ae9.png" alt="podiatech">
+            <img src="/podiatech.6d289ae9.png" alt="podiatech" class="mainProd__leftBlock_img">
 
             <div class="mainProd__leftBlock_textBlock_text">
               <p class="mainProd__leftBlock_title">Podiatech</p>
@@ -538,6 +539,38 @@
 
         <div class="fixedButtons__button">
           <img src="/chat.f63d3283.svg" alt="chat-button">
+        </div>
+      </div>
+
+      <div class="popup" id="popup">
+        <div class="popup__content_wrapper">
+          <div class="popup__content">
+            <button class="popupCloseButton" id="popupCloseButton">
+              <img src="/close.4440cd52.svg" alt="close">
+            </button>
+  
+            <img src="/popup.de4cdc24.png" alt="popup" class="popup__content_img">
+  
+            <div class="popup__content_formWrapper">
+              <p class="popup__content_formWrapper_title">
+                Залиште ваш номер телефону і наш менеджер зв’яжеться з вами найближчим часом
+              </p>
+
+              <form action="post" class="form promotion__form popup_form">
+                <input type="text" placeholder="Ім'я" class="appointment__card_input popup_input">
+                <input type="text" placeholder="Телефон" class="appointment__card_input popup_input">
+                <input type="text" placeholder="Текст повідомлення (не обов'язково)" class="appointment__card_input popup_input">
+                <label for="" class="form_checkbox popup_checkBox">
+                  <input type="checkbox">
+                  Підтверджуючи, ви погоджуєтесь з <strong>політикою конфіденсальності</strong>
+                </label>
+
+                <div class="fullscreenButtonWrapper">
+                  <button class="appointment_formButton button fullscreenButton">Отримати консультацію</button>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </main>

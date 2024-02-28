@@ -79,14 +79,6 @@
         </div>
       </section>
 
-      <section class="route">
-        <p class="route__base">Ортофіт</p>
-        <img src="/provide.e15c887a.svg" alt="route" class="route__provide">
-        <p class="route__base">Каталог товарів</p>
-        <img src="/provide.e15c887a.svg" alt="route" class="route__provide">
-        <p class="route__nextPage">Дитячі</p>
-      </section> 
-
       <section class="statistic">
         <div class="statistic__callToAction">
           <p class="statistic__callToAction_title">Найкращі персональні устілки для будь-яких подій</p>
@@ -115,6 +107,14 @@
           </div>
         </div>
       </section>
+
+      <section class="route">
+        <p class="route__base">Ортофіт</p>
+        <img src="/provide.e15c887a.svg" alt="route" class="route__provide">
+        <p class="route__base">Каталог товарів</p>
+        <img src="/provide.e15c887a.svg" alt="route" class="route__provide">
+        <p class="route__nextPage">Дитячі</p>
+      </section> 
 
       <section class="categories container">
         <div class="categories__head">
@@ -952,6 +952,38 @@
 
         <div class="fixedButtons__button">
           <img src="/chat.f63d3283.svg" alt="chat-button">
+        </div>
+      </div>
+
+      <div class="popup" id="popup">
+        <div class="popup__content_wrapper">
+          <div class="popup__content">
+            <button class="popupCloseButton" id="popupCloseButton">
+              <img src="/close.4440cd52.svg" alt="close">
+            </button>
+  
+            <img src="/popup.de4cdc24.png" alt="popup" class="popup__content_img">
+  
+            <div class="popup__content_formWrapper">
+              <p class="popup__content_formWrapper_title">
+                Залиште ваш номер телефону і наш менеджер зв’яжеться з вами найближчим часом
+              </p>
+
+              <form action="post" class="form promotion__form popup_form">
+                <input type="text" placeholder="Ім'я" class="appointment__card_input popup_input">
+                <input type="text" placeholder="Телефон" class="appointment__card_input popup_input">
+                <input type="text" placeholder="Текст повідомлення (не обов'язково)" class="appointment__card_input popup_input">
+                <label for="" class="form_checkbox popup_checkBox">
+                  <input type="checkbox">
+                  Підтверджуючи, ви погоджуєтесь з <strong>політикою конфіденсальності</strong>
+                </label>
+
+                <div class="fullscreenButtonWrapper">
+                  <button class="appointment_formButton button fullscreenButton">Отримати консультацію</button>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </main>

@@ -1,6 +1,6 @@
 .videoBlock--discount {
   padding: 30px;
-  border-bottom: 1px solid rgb(6, 115, 154, 0.3);
+  /* border-bottom: 1px solid rgb(6, 115, 154, 0.3); */
 }
 
 .videoBlock_head_title {
@@ -102,6 +102,13 @@
   background: #fff;
   color: #06739a;
   cursor: pointer;
+  font-size: 20px;
+  transition: all 0.3s;
+}
+
+.videoBlock_discountsListBlock_button:hover {
+  background: #06739a;
+  color: #fff;
 }
 
 
@@ -113,5 +120,29 @@
 .videoBlock_discountsListBlock {
   color: #06739a;
 }
+
+.learnMoreButton--videoBlock_link {
+  text-decoration: none;
+}
+
+.learnMoreButton--videoBlock {
+  font-weight: 600;
+}
+
+.servicesSection__listOfServices_card_buttonWrapper_button {
+  font-size: 20px;
+}
+
+.productsListBlock__body_more {
+  font-size: 20px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.productsListBlock__body_more:hover {
+  background: #06739a;
+  color: #fff;
+}
+
 
 /*# sourceMappingURL=/discountPage.45e18d44.css.map */
