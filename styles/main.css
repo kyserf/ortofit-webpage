@@ -79,6 +79,14 @@ body {
   gap: 30px;
 }
 
+.fixedButtons__button {
+  transition: all 0.3s;
+}
+
+.fixedButtons__button:hover {
+  background: rgb(0, 113, 155, 0.2);
+}
+
 .container {
   margin-right: 20px;
   margin-left: 20px;
@@ -107,6 +115,7 @@ body {
   color: #06739a;
   background: none;
   border: none;
+  padding-bottom: 5px;
   border-bottom: 1px solid #06739a;
   cursor: pointer;
 }
@@ -166,6 +175,9 @@ body {
   margin-bottom: 20px;
   margin-top: 20px;
   margin-left: 20px;
+
+  border-bottom: 1px solid rgb(6, 115, 154, 0.25);
+  padding-bottom: 15px;
 }
 
 .route__base {
@@ -409,10 +421,17 @@ div .popup_form {
 }
 
 .header__button_test {
+  display: none;
   width: 220px;
   height: 44px;
 
   margin-right: 40px;
+}
+
+@media screen and (max-width: 1600px) {
+  .header__button_test {
+    display: block;
+  }
 }
 
 .header__logo {
@@ -581,6 +600,12 @@ div .popup_form {
   color: #00719b;
 }
 
+@media screen and (max-width: 580px) {
+  .header__button_test  {
+    display: none;
+  }
+}
+
 /* === hero === */
 
 .hero {
@@ -713,6 +738,12 @@ div .popup_form {
   background: rgba(255, 255, 255, 0.6);
   backdrop-filter: blur(10px);
   cursor: pointer;
+}
+
+@media screen and (max-width: 1120px) {
+  .hero__remark_button {
+    display: none;
+  } 
 }
 
 .hero__remark_full {
@@ -1244,6 +1275,12 @@ div .popup_form {
   }
 }
 
+@media screen and (max-width: 525px) {
+  .statistic {
+    height: 1005px;
+  }
+}
+
 /* === mainProd === */
 
 .mainProd {
@@ -1765,6 +1802,40 @@ div .popup_form {
   }
 }
 
+@media screen and (max-width: 505px) {
+  .mainProd__leftBlock {
+    width: 300px;
+  }
+
+  .mainProd__leftBlock_textBlock {
+    width: 280px;
+  }
+
+  .mainProd__leftBlock_title {
+    font-size: 38px;
+  }
+
+  .mainProd__leftBlock_subTitle {
+    font-size: 17px;
+  }
+
+  .mainProd__leftBlock_remark {
+    font-size: 20px;
+  }
+
+  .mainProd__leftBlock_lastText {
+    font-size: 16px;
+  }
+
+  .mainProd__rightBlock {
+    width: 300px;
+  }
+
+  .mainProd__rightBlock_content {
+    width: 280px;
+  }
+}
+
 .mainProd__transparentCircle {
   position: absolute;
   right: 40%;
@@ -1790,7 +1861,7 @@ div .popup_form {
   margin-bottom: 30px;
 }
 
-@media screen and (max-width: 1160px) {
+@media screen and (max-width: 960px) {
   .advantages {
     flex-direction: column;
   }
@@ -1879,9 +1950,13 @@ div .popup_form {
     flex-direction: column;
     align-items: end;
   }
+
+  .advantages__videoLink {
+    width: 250px;
+  }
 }
 
-@media screen and (max-width: 1160px) {
+@media screen and (max-width: 960px) {
   .advantages__list {
     margin: 0;
     align-items: center;
@@ -1913,14 +1988,6 @@ div .popup_form {
   background: #06739a;
 
   color: #fff;
-}
-
-@media screen and (max-width: 1160px) {
-  .advantages__list_main {
-    height: 342px;
-    width: 700px;
-    justify-content: start;
-  }
 }
 
 @media screen and (max-width: 740px) {
@@ -2749,6 +2816,16 @@ div .popup_form {
   width: 100%;
 }
 
+@media screen and (max-width: 500px) {
+  .about__textBlock {
+    width: 280px;
+  }
+
+  .about__cardBlock_card {
+    width: 280px;
+  }
+}
+
 /* videoBlock */
 
 .videoBlock {
@@ -2938,6 +3015,47 @@ div .popup_form {
   .videoBlock {
     width: 380px;
   }
+
+  @media screen and (max-width: 500px) {
+    .videoBlock {
+      width: auto;
+    }
+
+    .videoBlock__textBlock {
+      width: 280px;
+    }
+
+    .videoBlock__textBlock_top {
+      width: 280px;
+      height: 140px;
+    }
+
+    .videoBlock__textBlock_top_title {
+      font-size: 22px;
+    }
+
+    .videoBlock__textBlock_top_text {
+      font-size: 15px;
+    }
+
+    .videoBlock__textBlock_bottom {
+      width: 280px;
+    }
+
+    .videoBlock__textBlock_bottom_title {
+      font-size: 22px;
+    }
+
+    .videoBlock__textBlock_bottom_text {
+      font-size: 15px;
+    }
+
+    .videoBlock__textBlock_bottom_buttonWrapper {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+
 }
 
 /* stages */
@@ -3430,6 +3548,36 @@ div .popup_form {
   }
 }
 
+
+@media screen and (max-width: 500px) {
+  .stages__leftBlock_head {
+    width: 270px;
+  }
+
+  .stages__leftBlock_head_title {
+    font-size: 22px;
+    margin-left: 40px;
+  }
+
+  .stages__leftBlock_body_listOfStages {
+    width: 280px;
+  }
+
+  .stages__leftBlock_body_videoblock {
+    width: 280px;
+    height: 330px;
+  }
+
+  .stages__leftBlock_body_videoblock_video_img {
+    width: 280px;
+  }
+
+  .stages__leftBlock {
+    width: 300px;
+    height: 905px;
+  }
+}
+
 /* insolesTypes */
 
 .insolesTypes {
@@ -3663,6 +3811,59 @@ div .popup_form {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .insolesTypes {
+    width: auto;
+  }
+
+  .insolesTypes__cardList_card_content {
+    gap: 10px;
+  }
+
+  .insolesTypes__cardList_card {
+    height: 540px;
+  }
+
+  .insolesTypes__cardList {
+    width: 280px;
+  }
+
+  .insolesTypes__cardList_card {
+    width: 280px;
+  }
+
+  .insolesTypes__cardList_card_wrapper {
+    width: 280px;
+  }
+
+  .insolesTypes__cardList_card_content {
+    width: 280px;
+  }
+
+  .insolesTypes__cardList_img {
+    width: 280px;
+  }
+
+  .insolesTypes__cardList_card_content_buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .insolesTypes__title {
+    font-size: 30px;
+    width: 280px;
+  }
+
+  .insolesTypes__block {
+    width: 280px;
+  }
+
+  .insolesTypes__cardList_button {
+    width: 200px;
+    font-size: 17px;
+  }
+}
+
 @media screen and (max-width: 570px) {
   .insolesTypes__cardList_card {
     width: 370px;
@@ -3829,7 +4030,6 @@ div .popup_form {
 @media screen and (max-width: 960px) {
   .appointment__card {
     width: 600px;
-    height: 300px;
   }
 
   .appointment__card_title {
@@ -3845,10 +4045,6 @@ div .popup_form {
     margin-right: 30px;
   }
 
-  .appointment__card_wrapper {
-    justify-content: end;
-  }
-
   .appointment__card_thirdCard_content {
     font-size: 20px;
     width: auto;
@@ -3859,23 +4055,23 @@ div .popup_form {
   }
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 640px) {
   .appointment__card {
-    width: 360px;
+    width: 300px;
+  }
+
+  .appointment__card_wrapper {
+    width: 300px;
+  } 
+
+  .appointment__card_text {
+    width: 300px;
   }
 }
 
 @media screen and (max-width: 620px) {
   .thirdCard {
     margin-bottom: 40px;
-  }
-
-  .appointment__card_wrapper {
-    width: 370px;
-  }
-
-  .appointment__card_text {
-    width: 370px;
   }
 }
 
@@ -4474,6 +4670,13 @@ div .popup_form {
   height: 367px;
 }
 
+@media screen and (max-width: 1500px) {
+  .contacts__contactBlock_top {
+    align-items: start;
+    justify-content: start;
+  }
+}
+
 @media screen and (max-width: 1270px) {
   .contacts__contactBlock_top {
     height: 390px;
@@ -4624,8 +4827,7 @@ div .popup_form {
 
 @media screen and (max-width: 1850px) {
   .contacts_img {
-    width: 571px;
-    height: 377px;
+    height: 380px;
   }
 }
 

@@ -27,6 +27,81 @@
   width: 450px;
 }
 
+@media screen and (max-width: 1500px) {
+  .services_hero {
+    height: 590px;
+  }
+
+  .services_hero_titlename {
+    font-size: 48px;
+    width: 360px;
+  }
+
+  .hero__title--servicePage {
+    top: 180px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .services_hero {
+    height: 490px;
+  }
+
+  .services_hero_titlename {
+    font-size: 42px;
+  }
+
+  .hero__title--servicePage {
+    top: 130px;
+    right: 200px;
+
+    width: 370px;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .services_hero {
+    height: 420px;
+  }
+
+  .services_hero_titlename {
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+
+  .hero__title--servicePage {
+    top: 120px;
+    right: 100px;
+
+    width: 370px;
+  }
+
+  .hero__title_remark--servicePage {
+    font-size: 16px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .services_hero {
+    height: 390px;
+  }
+
+  .services_hero_titlename {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+
+  .hero__title--servicePage {
+    top: 100px;
+    right: 80px;
+  }
+
+  .hero__title_remark--servicePage {
+    font-size: 16px;
+  }
+}
+
 .servicesSection__listOfServices {
   margin-bottom: 25px;
 }
@@ -41,6 +116,12 @@
 @media screen and (max-width: 1830px) {
   .servicesSection__listOfServices_wrapper {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  .servicesSection__listOfServices_wrapper {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -133,6 +214,17 @@
   width: 530px;
 }
 
+.servicesSection__listOfServices_card_buttonWrapper_button_popup  {
+  font-size: 20px;
+  transition: all 0.3s;
+}
+
+.servicesSection__listOfServices_card_buttonWrapper_button_popup:hover {
+  color: #fff;
+  border: 1px solid #fff;
+  background: #00719b;
+}
+
 .registerButton {
   border: 1px solid #00719b;
   border-radius: 45px;
@@ -165,4 +257,19 @@
   height: 60px;
   width: 100%;
   color: #00719b;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.servicesSection__button:hover {
+  color: #fff;
+  border: 1px solid #fff;
+  background: #00719b;
+}
+
+@media screen and (max-width: 1160px) {
+  .feedback__body_card--second {
+    display: none;
+  }
 }

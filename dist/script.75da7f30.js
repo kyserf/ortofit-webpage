@@ -122,10 +122,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
 // vision ---------------------------------------
 var navbar = document.querySelector('.header__navbar');
-var testButton = document.querySelector('.header__button_test');
 var videoBlockButton = document.querySelector('.learnMoreButton--videoBlock');
-// let feedbackCard = document.querySelector('.feedback__body_card--last');
-
 window.addEventListener('resize', function () {
   if (window.innerWidth > 1600) {
     navbar.style.display = 'flex';
@@ -145,13 +142,6 @@ window.addEventListener('resize', function () {
     feedbackCard.style.display = 'none';
   }
 });
-if (window.innerWidth > 1600) {
-  navbar.style.display = 'flex';
-  testButton.style.display = 'none';
-} else {
-  navbar.style.display = 'none';
-  testButton.style.display = 'block';
-}
 if (window.innerWidth > 1430) {
   videoBlockButton.style.display = 'block';
 } else {
@@ -187,18 +177,31 @@ document.addEventListener('DOMContentLoaded', function () {
   var heroRemarkFull = document.querySelector('.hero__remark_full');
   toggleButton.addEventListener('click', function () {
     heroRemarkFull.style.display = heroRemarkFull.style.display === 'none' || heroRemarkFull.style.display === '' ? 'block' : 'none';
-
-    // Оновлення кнопок в залежності від стану hero__remark_full
     toggleButton.style.display = heroRemarkFull.style.display === 'block' ? 'none' : 'flex';
     closeButton.style.display = heroRemarkFull.style.display === 'block' ? 'flex' : 'none';
   });
   closeButton.addEventListener('click', function () {
     heroRemarkFull.style.display = 'none';
-
-    // Оновлення кнопок при закритті
     toggleButton.style.display = 'flex';
     closeButton.style.display = 'none';
   });
+});
+document.addEventListener('DOMContentLoaded', function () {
+  var listOfServicesWrapper = document.querySelector('.servicesSection__listOfServices_wrapper');
+  var cards = document.querySelectorAll('.servicesSection__listOfServices_card');
+  function updateCards() {
+    var screenWidth = window.innerWidth;
+    var maxCardsToShow = screenWidth <= 1260 ? 3 : cards.length;
+    cards.forEach(function (card, index) {
+      if (index < maxCardsToShow) {
+        card.style.display = 'block';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+  updateCards();
+  window.addEventListener('resize', updateCards);
 });
 },{}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -225,7 +228,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56098" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62727" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

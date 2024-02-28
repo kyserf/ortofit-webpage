@@ -141,6 +141,9 @@
 .staff {
   position: relative;
   color: #06739a;
+
+  border-bottom: 1px solid rgb(6, 115, 154, 0.25);
+  padding-bottom: 30px;
 }
 
 .staff::before {
@@ -246,7 +249,7 @@
 
 .staff__persons_owner_name_position {
   font-size: 17px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .staff__persons_owner_links_link {
@@ -279,7 +282,7 @@
 }
 
 .staff__buttons {
-  bottom: 0;
+  bottom: 30px;
   right: 0;
 }
 
@@ -357,6 +360,9 @@
 
   width: 930px;
   height: 754px;
+
+  background-color: #fff;
+  border-radius: 40px;
 }
 
 .ourPartners__prodBlock_text {

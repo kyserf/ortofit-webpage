@@ -11,6 +11,43 @@
   height: 750px;
 }
 
+@media screen and (max-width: 1500px) {
+  .contacts_hero {
+    height: 590px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .contacts_hero {
+    height: 550px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .contacts_hero {
+    height: 515px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .contacts_hero {
+    height: 470px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .contacts_hero {
+    height: 395px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .contacts_hero {
+    margin-top: 80px;
+    height: 320px;
+  }
+}
+
 .contacts_hero_title {
   width: 510px;
 }
